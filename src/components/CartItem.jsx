@@ -1,23 +1,33 @@
-export default function CartItem() {
+import { usePizzasContext } from "../context/PizzasContext";
+import { formatPrice } from "../utils/formatPrice";
+
+export default function CartItem({ item }) {
+  const { addPizza, removePizza, findItemCount } = usePizzasContext();
+
   return (
     <li className="list-group-item">
       <div className="d-flex justify-content-between align-items-center">
-        <div className="d-flex align-items-center">
-          <img
-            className="me-3"
-            src="https://via.placeholder.com/100"
-            alt="Pizza"
-            width="100"
-          />
-          <div>
-            <h5 className="mb-0">Pizza name</h5>
-            <small className="text-muted">$5.990</small>
-          </div>
+        <div className="d-flex">
+          <img className="me-3" src={item.img} alt="Pizza" width="100" />
+          <h1 className="m-0 p-2">{item.name}</h1>
         </div>
         <div className="d-flex gap-1">
-          <button className="btn btn-outline-danger btn-sm">-</button>
-          <button className="btn btn-outline-dark btn-sm disabled">5</button>
-          <button className="btn btn-outline-primary btn-sm">+</button>
+          <small className="text-muted p-2">${formatPrice(item.price)}</small>
+          <button
+            className="btn btn-outline-danger btn-sm"
+            onClick={() => removePizza(item)}
+          >
+            -
+          </button>
+          <button className="btn btn-outline-dark btn-sm disabled">
+            {findItemCount(item.id)}
+          </button>
+          <button
+            className="btn btn-outline-primary btn-sm"
+            onClick={() => addPizza(item)}
+          >
+            +
+          </button>
         </div>
       </div>
     </li>

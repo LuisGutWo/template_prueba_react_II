@@ -1,24 +1,49 @@
-import { createContext, useContext, useState} from "react";
+import { createContext, useContext, useState } from "react";
 
-export const PizzasContext = createContext();
+export const CartContext = createContext();
 
-export default function PizzasProvider ({children}) {
-    const [pizzas, setPizzas] = useState([]);
+export default function PizzasProvider({ children }) {
+  const [cart, setCart] = useState([]);
 
-    const addPizzas = (info) => {
-        setPizzas ([...pizzas, info]);
-    };
-    const removePizzas = (id) => {
-        setPizzas(pizzas.filter((image) => image.id != id));
-    };
+  const addPizza = (item) => {
+    const itemExists = cart.find((i) => i.id === item.id);
 
-    return (
+    if (itemExists) {
+      setCart(
+        cart.map((i) => (i.id === item.id ? { ...i, count: i.count + 1 } : i))
+      );
+    } else {
+      setCart([...cart, { ...item, count: 1 }]);
+    }
+  };
 
-        <PizzasContext.Provider value={{ pizzas, addPizzas, removePizzas}}>
-            {children}
-        </PizzasContext.Provider>
-    );
+  const removePizza = (item) => {
+    const itemExists = cart.find((i) => i.id === item.id);
+    if (itemExists.count === 1) {
+      setCart(cart.filter((i) => i.id !== item.id));
+    } else {
+      setCart(
+        cart.map((i) => (i.id === item.id ? { ...i, count: i.count - 1 } : i))
+      );
+    }
+  };
 
-};  
+  const totalCart = () => {
+    return cart.reduce((acc, item) => acc + item.price * item.count, 0);
+  };
 
-export const usePizzasContext = () => useContext(PizzasContext);
+  const findItemCount = (id) => {
+    const item = cart.find((i) => i.id === id);
+    return item ? item.count : 0;
+  };
+
+  return (
+    <CartContext.Provider
+      value={{ cart, addPizza, removePizza, totalCart, findItemCount }}
+    >
+      {children}
+    </CartContext.Provider>
+  );
+}
+
+export const usePizzasContext = () => useContext(CartContext);

@@ -1,33 +1,38 @@
 import { useState, useEffect } from "react";
-import { Card } from "react-bootstrap";
+import MainCard from "../components/MainCard";
+import Loading from "../components/Loading";
 
 export default function Pizzas() {
-
   const [pizzas, setPizzas] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   const getPizzas = async () => {
-    const res = await fetch("pizzas.json");
-    const data = await res.json();
-    setPizzas(data);
+    setLoading(true);
+    try {
+      const res = await fetch("pizzas.json");
+      if (!res.ok) setError(true);
+      const data = await res.json();
+      setPizzas(data);
+    } catch (error) {
+      console.log(error);
+    }
+    setLoading(false);
   };
   useEffect(() => {
     getPizzas();
   }, []);
 
-
+  if (loading) return <Loading />;
+  if (error) return <div>Error: Pizza no encontrada</div>;
 
   return (
     <div>
-      <h1>Pizzas</h1>
-      <div className="row">
+      <div className="row text-center">
         {pizzas.map((item) => {
-          return (  
-            <Card key={item.id}>{item.id} - {item.name}</Card>
-          ) 
-        }
-        )};
+          return <MainCard key={item.id} item={item} />;
+        })}
       </div>
     </div>
   );
 }
-
