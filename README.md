@@ -7,3 +7,7 @@
 #### Esta es una vista previa del proyecto
 
 - [screen shot del proyecto](https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/mamma_mia_pizzeria.png?alt=media&token=c4524af0-ae36-440b-aa89-599dd3aa4867)
+
+#### Deployed
+
+- [Deployed](https://jovial-pegasus-7601ec.netlify.app/)
