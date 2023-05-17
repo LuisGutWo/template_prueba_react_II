@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { usePizzasContext } from "../context/PizzasContext";
 import { useParams, NavLink } from "react-router-dom";
+import axios from "axios";
 
 export default function Pizza() {
   const [pizza, setPizza] = useState();
@@ -11,10 +12,9 @@ export default function Pizza() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("/pizzas.json")
-      .then((response) => response.json())
-      .then((data) => {
-        const pizza = data.find((item) => item.id === params.id);
+    axios.get("/pizzas.json")
+      .then((res) => {
+        const pizza = res.data.find((item) => item.id === params.id);
         setPizza(pizza);
       })
       .finally(() => setLoading(false));

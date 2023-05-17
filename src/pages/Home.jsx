@@ -6,7 +6,7 @@ export default function Home() {
       <div className="main-hero bg-black">
         <div className="hero-container">
           <img
-            src="./src/assets/img/fondo_pizzas_2.jpg"
+            src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/fondo_pizzas_2.jpg?alt=media&token=4e1c39b3-4149-4e57-836c-20caaf30083b"
             alt=""
             className="hero-img"
           />

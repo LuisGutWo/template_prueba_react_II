@@ -29,12 +29,15 @@ export default function MainCard({ item }) {
         </Card.Text>
 
         <div className="text-center">
+
           <NavLink
             to={`/pizzas/${item.id}`}
             className="btn btn-sm btn-primary m-2"
           >
             Ver detalles 👀
           </NavLink>
+
+          
           <NavLink
             to="/cart"
             className="btn btn-sm btn-danger m-2"
