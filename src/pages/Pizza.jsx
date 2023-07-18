@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { usePizzasContext } from "../context/PizzasContext";
 import { useParams, NavLink } from "react-router-dom";
 import axios from "axios";
+import { Card } from "react-bootstrap";
 
 export default function Pizza() {
   const [pizza, setPizza] = useState();
@@ -12,7 +13,8 @@ export default function Pizza() {
 
   useEffect(() => {
     setLoading(true);
-    axios.get("/pizzas.json")
+    axios
+      .get("/pizzas.json")
       .then((res) => {
         const pizza = res.data.find((item) => item.id === params.id);
         setPizza(pizza);
@@ -25,47 +27,43 @@ export default function Pizza() {
   }
 
   return (
-    <div className="card-detail card bg-light">
-      <div className="row">
-        <div className="col-md-4">
-          <img
-            src={pizza.img}
-            className="img-fluid rounded-start h-100"
-            alt="..."
-          />
-        </div>
-        <div className="col-md-8">
-          <div className="card-body text-start">
-            <h5 className="fs-1">{pizza.name} </h5>
-            <hr />
-            <p className="card-text">{pizza.desc}</p>
-            <p className="card-text">
-              <small className="text-muted">
-                <div className="alert alert-warning text-dark">
-                  <h3>Ingredientes:</h3>
-                  {pizza.ingredients.map((ingredient, index) => (
-                    <div key={ingredient}>
-                      🍕 {ingredient}
-                      {pizza.ingredients.length !== index + 1 && ", "}
-                    </div>
-                  ))}
-                </div>
+    <Card className="card-detail">
+      <Card.Img
+        variant="top"
+        src={pizza.img}
+        className="img-fluid rounded-start h-100"
+        alt="..."
+      />
+      <Card.Body>
+        <Card.Title className="fs-1">{pizza.name} </Card.Title>
+        <Card.Text className="card-text">{pizza.desc}</Card.Text>
+        <Card.Body style={{ textAlign: "start" }}>
+          <h3>Ingredientes:</h3>
+          {pizza.ingredients.map((ingredient, index) => (
+            <div key={ingredient}>
+              🍕 {ingredient}
+              {pizza.ingredients.length !== index + 1 && ", "}
+            </div>
+          ))}
+        </Card.Body>
 
-                <h4 className="alert alert-primary text-center d-flex justify-content-between">
-                  Precio: ${pizza.price}
-                  <NavLink
-                    className="btn btn-danger"
-                    onClick={() => addPizza(pizza)}
-                    to="/cart"
-                  >
-                    Añadir 🛒
-                  </NavLink>
-                </h4>
-              </small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+        <h4 className="alert alert-primary text-center d-flex justify-content-between">
+          ${pizza.price}
+          <NavLink
+            className="btn btn-primary"
+            to="/"
+          >
+            Pizzas 🍕
+          </NavLink>
+          <NavLink
+            className="btn btn-danger"
+            onClick={() => addPizza(pizza)}
+            to="/cart"
+          >
+            Añadir 🛒
+          </NavLink>
+        </h4>
+      </Card.Body>
+    </Card>
   );
 }

@@ -16,7 +16,7 @@
   background-color: #000000e3;
 }
 .main-logo {
-  height: 3em;
+  width: 30vw;
 }
 
 .navbar-main {
@@ -32,19 +32,54 @@
 
 .hero-container {
   position: relative;
+  height: 30vh;
 }
 
 .hero-img {
   opacity: 0.3;
   width: 100vw;
+  height: 30vh;
 }
 .hero-text {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 24%;
   color: rgb(255, 255, 255);
+}
+.main-card-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.card-image {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.card-title {
+  border-bottom: #2222227a solid 1px;
+  padding-bottom: 14px;
 }
 
 .card-detail {
-  margin: 9em 3em 5em 3em;
+  width: 80vw;
+  left: 10%;
+  top: 9rem;
+}
+.card-text{
+  align-items: start;
 }
 
 .cart-container {

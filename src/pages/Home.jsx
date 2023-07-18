@@ -13,10 +13,10 @@ export default function Home() {
         </div>
         <div className="hero-text">
           <h1 className="display-3">
-            <b>¡Pizzeria Mamma Mia!</b>
+            <b>¡Pizzeria Fina Pizza!</b>
           </h1>
           <p className="text-center">
-            <b>¡Tenemos las mejores pizzas que podrás imaginar!</b>
+            <b>¡Una pizza distinta hecha a tu medida!</b>
           </p>
           <hr />
         </div>

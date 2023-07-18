@@ -28,7 +28,7 @@ export default function Pizzas() {
 
   return (
     <div>
-      <div className="row text-center">
+      <div className="main-card-section">
         {pizzas.map((item) => {
           return <MainCard key={item.id} item={item} />;
         })}
