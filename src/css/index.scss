@@ -1,0 +1,104 @@
+@use "./styles.scss";
+@use "../components/footer.scss";
+@use "../components/header.scss";
+@use "../pages/hero.scss";
+@use "../components/navbarproducts.scss";
+@use "../utils/notfound.scss";
+
+.App {
+  font-family: styles.$primary-font;
+  background-color: styles.$background-color;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000f0;
+}
+
+
+
+
+.main-card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.main-card{
+  border: none;
+}
+
+.card-image {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.card-title {
+  padding-bottom: 14px;
+}
+
+.card-detail {
+  width: 80vw;
+  left: 10%;
+  top: 9rem;
+}
+
+.card-text {
+  align-items: start;
+}
+
+.cart-container {
+  margin-top: 7em;
+}
+
+.btn-arrow-up {
+  position: fixed !important;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.2rem;
+  width: 3.2rem;
+  top: 85%;
+  right: 82%;
+  z-index: 100;
+  background-color: #566b6b70;
+  border: none;
+  border-radius: 50%;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  @media (min-width: 768px) {
+    right: 89%;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  @media (min-width: 1024px) {
+    right: 90%;
+    height: 5rem;
+    width: 5rem;
+  }
+
+}

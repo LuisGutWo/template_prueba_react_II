@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import MainCard from "../components/MainCard";
 import Loading from "../components/Loading";
+import NavbarProducts from "../components/NavbarProducts";
 
 export default function Pizzas() {
   const [pizzas, setPizzas] = useState([]);
@@ -28,6 +29,7 @@ export default function Pizzas() {
 
   return (
     <div>
+      <NavbarProducts />
       <div className="main-card-section">
         {pizzas.map((item) => {
           return <MainCard key={item.id} item={item} />;

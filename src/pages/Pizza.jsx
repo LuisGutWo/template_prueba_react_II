@@ -38,7 +38,6 @@ export default function Pizza() {
         <Card.Title className="fs-1">{pizza.name} </Card.Title>
         <Card.Text className="card-text">{pizza.desc}</Card.Text>
         <Card.Body style={{ textAlign: "start" }}>
-          <h3>Ingredientes:</h3>
           {pizza.ingredients.map((ingredient, index) => (
             <div key={ingredient}>
               🍕 {ingredient}
@@ -49,10 +48,7 @@ export default function Pizza() {
 
         <h4 className="alert alert-primary text-center d-flex justify-content-between">
           ${pizza.price}
-          <NavLink
-            className="btn btn-primary"
-            to="/"
-          >
+          <NavLink className="btn btn-primary" to="/">
             Pizzas 🍕
           </NavLink>
           <NavLink

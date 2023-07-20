@@ -9,17 +9,27 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.8",
-    "@mui/styled-engine-sc": "^5.11.0",
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.5",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@mui/material": "^5.14.1",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "animate.css": "^4.1.1",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "email-js": "^2.0.2",
+    "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
+    "react-context": "^0.0.3",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-loaders": "^3.0.1",
     "react-router-dom": "^6.8.0",
-    "styled-components": "^5.3.6"
+    "sass": "^1.63.6",
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

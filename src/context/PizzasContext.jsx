@@ -28,9 +28,19 @@ export default function PizzasProvider({ children }) {
     }
   };
 
+  const totalItemPizzas = () => {
+    return cart.reduce((acc, item) => acc + item.count, 0);
+    };
+
   const totalCart = () => {
     return cart.reduce((acc, item) => acc + item.price * item.count, 0);
   };
+
+  const onCleanCart = () => {
+		setCart([]);
+		totalCart(0);
+		totalItemPizzas(0);
+	};
 
   const findItemCount = (id) => {
     const item = cart.find((i) => i.id === id);
@@ -39,7 +49,7 @@ export default function PizzasProvider({ children }) {
 
   return (
     <CartContext.Provider
-      value={{ cart, addPizza, removePizza, totalCart, findItemCount }}
+      value={{ cart, addPizza, removePizza, totalCart, findItemCount, onCleanCart }}
     >
       {children}
     </CartContext.Provider>

@@ -1,0 +1,44 @@
+@use "../css/styles.scss";
+
+.stickyNavbar{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    position: sticky;
+    
+    top: 0;
+    z-index: 100;
+    transition: ease-in-out 1.2s all;
+    transition-delay: 1.2s;
+}
+
+.navbar-button-group {
+    overflow: hidden;
+    height: 10vh;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: nowrap;
+    background-color: #030303;
+    z-index: 98;
+
+    .navbar-button {
+        font-size: inherit;
+        font-weight: bolder;
+        color: inherit;
+        text-decoration: none;
+        margin-right: auto;
+        cursor: pointer;
+        transition: all ease-in-out .4s;
+
+        &:hover {
+            transform: scale(.9);
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 14, 255);
+            border: none;
+
+        }
+    }
+
+}

@@ -1,50 +1,194 @@
 [
   {
-    "desc": "La pizza napolitana, de masa tierna y delgada pero bordes altos, es la versión propia de la cocina napolitana de la pizza redonda. El término pizza napoletana, por su importancia histórica o regional, se emplea en algunas zonas como sinónimo de pizza tonda.",
+    "desc": "La pizza napolitana, de masa tierna y delgada una base de pomodoro, jamón, tomates asados y albahaca fresca y oregano.",
     "id": "P001",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
-    "ingredients": ["mozzarella", "tomates", "jamón", "orégano"],
+    "ingredients": [
+      "mozzarella",
+      "tomates",
+      "jamón",
+      "orégano"
+    ],
     "name": "Napolitana",
-    "price": 5950
+    "type": "clásica",
+    "price": 6990
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "Masa delgada a la piedra, base pomodoro, jamón, choricillo español y mozzarella.",
     "id": "P002",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fcheese-164872_640_com.jpg?alt=media&token=18b2b821-4d0d-43f2-a1c6-8c57bc388fab",
-    "ingredients": ["mozzarella", "tomates", "jamón", "choricillo"],
+    "ingredients": [
+      "mozzarella",
+      "tomates",
+      "jamón",
+      "choricillo"
+    ],
     "name": "Española",
+    "type": "clásica",
     "price": 7250
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "Clásica de clásica... Salame Italiano, mozzarella y un toque de parmigiano",
     "id": "P003",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_com.jpg?alt=media&token=e7cde87a-08d5-4040-ac54-90f6c31eb3e3",
-    "ingredients": ["mozzarella", "tomates", "salame", "orégano"],
+    "img": "src/assets/img/pizza_salame.jpeg",
+    "ingredients": [
+      "mozzarella",
+      "tomates",
+      "salame",
+      "orégano"
+    ],
     "name": "Salame",
-    "price": 5990
+    "type": "clásica",
+    "price": 8250
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "Pizza de masa delgada a la piedra con base pomodoro, aceitunas negras, salame y champignon.",
     "id": "P004",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
-    "ingredients": ["mozzarella", "salame", "aceitunas", "champiñones"],
+    "ingredients": [
+      "mozzarella",
+      "salame",
+      "aceitunas",
+      "champignon"
+    ],
     "name": "Cuatro estaciones",
+    "type": "especial",
     "price": 9590
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "Esta tremenda pizza lleva el tocino en las venas... Atrévete a probarla.",
     "id": "P005",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-salame.jpg?alt=media&token=ab3d4bf8-01f2-4810-982b-bd7fb6b517b2",
-    "ingredients": ["mozzarella", "tomates cherry", "bacon", "orégano"],
+    "ingredients": [
+      "mozzarella",
+      "tomates cherry",
+      "bacon",
+      "orégano"
+    ],
     "name": "Bacon",
-    "price": 6450
+    "type": "especial",
+    "price": 8990
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "Deliciosa pizza exotica, pimentones asados, mozzarella, pollo grillado en una salsa al curry levemente picante con oregano fresco.",
     "id": "P006",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
-    "ingredients": ["mozzarella", "pimientos", "pollo grillé", "orégano"],
+    "img": "src/assets/img/pizza_pollo_picante.jpeg",
+    "ingredients": [
+      "mozzarella",
+      "pimientos",
+      "pollo grillé",
+      "orégano"
+    ],
     "name": "Pollo picante",
+    "type": "especial",
+    "price": 9990
+  },
+  {
+    "desc": "Una Pizza con identidad. Tomates asados previamente al carbon envuelve a los champignon y albahaca fresca y fundidos en dos quesos, pecorino y mozzarella",
+    "id": "P007",
+    "img": "src/assets/img/pizza_electrizante.jpg",
+    "ingredients": [
+      "mozzarella",
+      "tomates asados",
+      "champignon",
+      "albahaca",
+      "queso pecorino"
+    ],
+    "name": "Electrizante",
+    "type": "especial",
+    "price": 10990
+  },
+  {
+    "desc": "Pizza marina con camarones fundidos en queso provolone.",
+    "id": "P008",
+    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
+    "ingredients": [
+      "mozzarella",
+      "tomates asados",
+      "camarones",
+      "orégano"
+    ],
+    "name": "La Marchelo",
+    "type": "especial",
+    "price": 9990
+  },
+  {
+    "desc": "De lo profundo del alma llega esta tremenda pizza, cuatro tipos de tomates, y dos tipos de quesos, mozzarella y pecorino.",
+    "id": "P009",
+    "img": "src/assets/img/pizza_6.jpg",
+    "ingredients": [
+      "mozzarella",
+      "pecorino",
+      "tomates asados",
+      "orégano"
+    ],
+    "name": "Soul Sound",
+    "type": "especial",
+    "price": 9990
+  },
+  {
+    "desc": "Llévate una pizza clásica tamaño median a elección acompañado de una bebida de 1 litro.",
+    "id": "P0010",
+    "img": "src/assets/img/promo_1.png",
+    "ingredients": [
+      "pizza mediana clásica",
+      "bebida de 1 litro"
+    ],
+    "name": "Promoción 1",
+    "type": "promociones",
+    "price": 7990
+  },
+  {
+    "desc": "Llévate dos medianas clásicas y acompáñalas con una bebida de 1.5 litros",
+    "id": "P0011",
+    "img": "src/assets/img/promo_2.png",
+    "ingredients": [
+      "2 pizzas mediana clásica",
+      "bebida de 1.5 litro"
+    ],
+    "name": "Promoción 2",
+    "type": "promociones",
+    "price": 12990
+  },
+  {
+    "desc": "La misma promo de una clásica mediana pero esta vez endulzamos tu camino con este delicioso pie de frutilla",
+    "id": "P0012",
+    "img": "src/assets/img/promo_3.png",
+    "ingredients": [
+      "pizza mediana clásica",
+      "pie de frutilla",
+      "bebida de 1 litro",
+      "orégano"
+    ],
+    "name": "Promoción 3",
+    "type": "promociones",
+    "price": 10990
+  },
+  {
+    "desc": "Combina de la mejor forma una mediana clásica y una mediana especial y acompáñalas con una bebida 1.5 litros",
+    "id": "P0013",
+    "img": "src/assets/img/promo_4.png",
+    "ingredients": [
+      "pizza mediana clásica",
+      "pizza mediana especial",
+      "bebida de 1.5 litro"
+    ],
+    "name": "Promoción 4",
+    "type": "promociones",
+    "price": 12990
+  },
+  {
+    "desc": "Llévate dos pizzas medianas una especial y una clásica mas una bebida de 1.5 litros y dos cheesecakes de frutilla",
+    "id": "P0013",
+    "img": "src/assets/img/promo_5.png",
+    "ingredients": [
+      "pizza mediana clásica",
+      "pizza mediana especial",
+      "cheesecake de frutilla",
+      "bebida de 1.5 litro"
+    ],
+    "name": "Promoción 5",
+    "type": "promociones",
     "price": 8500
   }
 ]

@@ -8,38 +8,39 @@ export default function MainCard({ item }) {
 
   return (
     <Card
-      className="text-start m-1 col-12 col-md-6 col-xl-3 p-0 overflow-hidden"
-      style={{ width: "18rem" }}
+      className="main-card text-start m-0 col-12 col-md-6 col-xl-3 p-0 overflow-hidden"
+      style={{ width: "18rem"}}
+      
     >
-      <Card.Img variant="top" className="card-image img-fluid" src={item.img} />
-      <Card.Body className="m-0">
-        <Card.Title className="card-title text-dark fs-2 mt-0 mb-1">
+      <NavLink to={`/pizzas/${item.id}`}>
+        <Card.Img
+          variant="top"
+          className="card-image img-fluid"
+          src={item.img}
+        />
+      </NavLink>
+      <Card.Body className="m-0 bg-dark">
+        <Card.Title className="card-title text-light fs-2 mt-0 mb-1">
           {item.name}
         </Card.Title>
         <Card.Text>
-          <Card.Title className="text-dark mb-1">
-            <h6>Ingredientes: </h6>
+          <Card.Title className="text-light mb-1">
             {item.ingredients.map((ingredient) => (
               <Card.Subtitle key={ingredient}>🍕 {ingredient}</Card.Subtitle>
             ))}
           </Card.Title>
-          <Card.Body className="text-dark fs-2 p-0 mt-0">${item.price}</Card.Body>
+          <Card.Body className="text-light fs-4 p-0 mt-0">
+            ${item.price}
+          </Card.Body>
         </Card.Text>
 
-        <section className="text-center">
-          <NavLink
-            to={`/pizzas/${item.id}`}
-            className="btn btn-sm btn-primary m-2"
-          >
-            Ver detalles 👀
-          </NavLink>
-
+        <section className="text-start">
           <NavLink
             to="/cart"
-            className="btn btn-sm btn-danger m-2"
+            className="btn btn-sm btn-warning"
             onClick={() => addPizza(item)}
           >
-            Comprar 🛒
+            Seleccionar 🍕
           </NavLink>
         </section>
       </Card.Body>
