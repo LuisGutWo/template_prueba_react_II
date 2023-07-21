@@ -9,7 +9,8 @@ export default function MainCard({ item }) {
   return (
     <Card
       className="main-card text-start m-0 col-12 col-md-6 col-xl-3 p-0 overflow-hidden"
-      style={{ width: "18rem"}}
+      style={{ width: "18rem" }}
+      border="dark"
       
     >
       <NavLink to={`/pizzas/${item.id}`}>

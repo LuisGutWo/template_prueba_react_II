@@ -31,7 +31,7 @@ export default function Pizza() {
       <Card.Img
         variant="top"
         src={pizza.img}
-        className="img-fluid rounded-start h-100"
+        className="img-fluid rounded-top h-100"
         alt="..."
       />
       <Card.Body>
@@ -46,19 +46,19 @@ export default function Pizza() {
           ))}
         </Card.Body>
 
-        <h4 className="alert alert-primary text-center d-flex justify-content-between">
+        <section className="alert alert-warning text-center text-dark d-flex justify-content-center gap-2">
           ${pizza.price}
-          <NavLink className="btn btn-primary" to="/">
+          <NavLink className="btn btn-primary btn-sm ms-4" to="/">
             Pizzas 🍕
           </NavLink>
           <NavLink
-            className="btn btn-danger"
+            className="btn btn-danger btn-sm"
             onClick={() => addPizza(pizza)}
             to="/cart"
           >
             Añadir 🛒
           </NavLink>
-        </h4>
+        </section>
       </Card.Body>
     </Card>
   );
