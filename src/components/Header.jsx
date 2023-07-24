@@ -15,7 +15,7 @@ export default function Header() {
         <Navbar.Brand href="#home">
           <Link className="navbar-brand" to="/">
             <img
-              src="public/img/2.png"
+              src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/2.png?alt=media&token=ec97873a-d384-43fc-bac5-688a3080861d"
               width="30"
               height="30"
               className="main-logo d-inline-block align-top"

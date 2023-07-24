@@ -11,7 +11,7 @@ const MainFooter = () => {
         <Row>
           <Col className="footer-content">
             <img
-              src={"public/img/2.png"}
+              src={"https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/2.png?alt=media&token=ec97873a-d384-43fc-bac5-688a3080861d"}
               width="50%"
               height="50%"
               className="d-inline-block align-top"

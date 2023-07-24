@@ -30,7 +30,7 @@
   {
     "desc": "Clásica de clásica... Salame Italiano, mozzarella y un toque de parmigiano",
     "id": "P003",
-    "img": "public/img/pizza_salame.jpeg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_salame.jpeg?alt=media&token=77ddf6ff-7f27-4f2f-929d-1fe6ef64f8e0",
     "ingredients": [
       "mozzarella",
       "tomates",
@@ -72,7 +72,7 @@
   {
     "desc": "Deliciosa pizza exotica, pimentones asados, mozzarella, pollo grillado en una salsa al curry levemente picante con oregano fresco.",
     "id": "P006",
-    "img": "public/img/pizza_pollo_picante.jpeg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_pollo_picante.jpeg?alt=media&token=a7609042-d0d2-43cd-96e2-8da373263519",
     "ingredients": [
       "mozzarella",
       "pimientos",
@@ -86,7 +86,7 @@
   {
     "desc": "Una Pizza con identidad. Tomates asados previamente al carbon envuelve a los champignon y albahaca fresca y fundidos en dos quesos, pecorino y mozzarella",
     "id": "P007",
-    "img": "public/img/pizza_electrizante.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_electrizante.jpg?alt=media&token=1f2acf3a-ab7c-4ad9-bb23-cbf0b878b873",
     "ingredients": [
       "mozzarella",
       "tomates asados",
@@ -115,7 +115,7 @@
   {
     "desc": "De lo profundo del alma llega esta tremenda pizza, cuatro tipos de tomates, y dos tipos de quesos, mozzarella y pecorino.",
     "id": "P009",
-    "img": "public/img/pizza_6.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_6.jpg?alt=media&token=8cd16d04-0c04-483e-8fce-960896ab9c21",
     "ingredients": [
       "mozzarella",
       "pecorino",
@@ -129,7 +129,7 @@
   {
     "desc": "Llévate una pizza clásica tamaño median a elección acompañado de una bebida de 1 litro.",
     "id": "P0010",
-    "img": "public/img/promo_1.png",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_1.png?alt=media&token=b28a6529-1567-44a3-acd4-aac12bb682b7",
     "ingredients": [
       "pizza mediana clásica",
       "bebida de 1 litro"
@@ -141,7 +141,7 @@
   {
     "desc": "Llévate dos medianas clásicas y acompáñalas con una bebida de 1.5 litros",
     "id": "P0011",
-    "img": "public/img/promo_2.png",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_2.png?alt=media&token=18e7b9c6-05ec-4b34-8f75-f8b28bda6d8d",
     "ingredients": [
       "2 pizzas mediana clásica",
       "bebida de 1.5 litro"
@@ -153,7 +153,7 @@
   {
     "desc": "La misma promo de una clásica mediana pero esta vez endulzamos tu camino con este delicioso pie de frutilla",
     "id": "P0012",
-    "img": "public/img/promo_3.png",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_3.png?alt=media&token=e765a736-e86f-4d0b-94d7-0809c97fbccc",
     "ingredients": [
       "pizza mediana clásica",
       "pie de frutilla",
@@ -167,7 +167,7 @@
   {
     "desc": "Combina de la mejor forma una mediana clásica y una mediana especial y acompáñalas con una bebida 1.5 litros",
     "id": "P0013",
-    "img": "public/img/promo_4.png",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_4.png?alt=media&token=b08fefa7-ac08-4edd-b1f9-3f47354d294f",
     "ingredients": [
       "pizza mediana clásica",
       "pizza mediana especial",
@@ -180,7 +180,7 @@
   {
     "desc": "Llévate dos pizzas medianas una especial y una clásica mas una bebida de 1.5 litros y dos cheesecakes de frutilla",
     "id": "P0014",
-    "img": "public/img/promo_5.png",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_5.png?alt=media&token=8e909fbb-0739-45a5-84c8-225bb3645457",
     "ingredients": [
       "pizza mediana clásica",
       "pizza mediana especial",
