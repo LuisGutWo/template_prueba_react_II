@@ -6,8 +6,8 @@
 
 #### Esta es una vista previa del proyecto
 
-- [screen shot del proyecto](https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/mamma_mia_pizzeria.png?alt=media&token=c4524af0-ae36-440b-aa89-599dd3aa4867)
+- [screen shot del proyecto](https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/127.0.0.1_5173_(iPhone%20SE)%20(1).png?alt=media&token=0c418dbb-7f2c-4866-b6ac-15f586cfcd95)
 
 #### Deployed
 
-- [Deployed](https://jovial-pegasus-7601ec.netlify.app/)
+- [Deployed](https://finapizza-prueba.netlify.app/)
