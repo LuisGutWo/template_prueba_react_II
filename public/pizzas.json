@@ -30,7 +30,7 @@
   {
     "desc": "Clásica de clásica... Salame Italiano, mozzarella y un toque de parmigiano",
     "id": "P003",
-    "img": "src/assets/img/pizza_salame.jpeg",
+    "img": "public/img/pizza_salame.jpeg",
     "ingredients": [
       "mozzarella",
       "tomates",
@@ -72,7 +72,7 @@
   {
     "desc": "Deliciosa pizza exotica, pimentones asados, mozzarella, pollo grillado en una salsa al curry levemente picante con oregano fresco.",
     "id": "P006",
-    "img": "src/assets/img/pizza_pollo_picante.jpeg",
+    "img": "public/img/pizza_pollo_picante.jpeg",
     "ingredients": [
       "mozzarella",
       "pimientos",
@@ -86,7 +86,7 @@
   {
     "desc": "Una Pizza con identidad. Tomates asados previamente al carbon envuelve a los champignon y albahaca fresca y fundidos en dos quesos, pecorino y mozzarella",
     "id": "P007",
-    "img": "src/assets/img/pizza_electrizante.jpg",
+    "img": "public/img/pizza_electrizante.jpg",
     "ingredients": [
       "mozzarella",
       "tomates asados",
@@ -115,7 +115,7 @@
   {
     "desc": "De lo profundo del alma llega esta tremenda pizza, cuatro tipos de tomates, y dos tipos de quesos, mozzarella y pecorino.",
     "id": "P009",
-    "img": "src/assets/img/pizza_6.jpg",
+    "img": "public/img/pizza_6.jpg",
     "ingredients": [
       "mozzarella",
       "pecorino",
@@ -129,7 +129,7 @@
   {
     "desc": "Llévate una pizza clásica tamaño median a elección acompañado de una bebida de 1 litro.",
     "id": "P0010",
-    "img": "src/assets/img/promo_1.png",
+    "img": "public/img/promo_1.png",
     "ingredients": [
       "pizza mediana clásica",
       "bebida de 1 litro"
@@ -141,7 +141,7 @@
   {
     "desc": "Llévate dos medianas clásicas y acompáñalas con una bebida de 1.5 litros",
     "id": "P0011",
-    "img": "src/assets/img/promo_2.png",
+    "img": "public/img/promo_2.png",
     "ingredients": [
       "2 pizzas mediana clásica",
       "bebida de 1.5 litro"
@@ -153,7 +153,7 @@
   {
     "desc": "La misma promo de una clásica mediana pero esta vez endulzamos tu camino con este delicioso pie de frutilla",
     "id": "P0012",
-    "img": "src/assets/img/promo_3.png",
+    "img": "public/img/promo_3.png",
     "ingredients": [
       "pizza mediana clásica",
       "pie de frutilla",
@@ -167,7 +167,7 @@
   {
     "desc": "Combina de la mejor forma una mediana clásica y una mediana especial y acompáñalas con una bebida 1.5 litros",
     "id": "P0013",
-    "img": "src/assets/img/promo_4.png",
+    "img": "public/img/promo_4.png",
     "ingredients": [
       "pizza mediana clásica",
       "pizza mediana especial",
@@ -180,7 +180,7 @@
   {
     "desc": "Llévate dos pizzas medianas una especial y una clásica mas una bebida de 1.5 litros y dos cheesecakes de frutilla",
     "id": "P0014",
-    "img": "src/assets/img/promo_5.png",
+    "img": "public/img/promo_5.png",
     "ingredients": [
       "pizza mediana clásica",
       "pizza mediana especial",

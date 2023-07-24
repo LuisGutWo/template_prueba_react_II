@@ -4,6 +4,7 @@
 @use "../pages/hero.scss";
 @use "../pages/navbarproducts.scss";
 @use "../utils/notfound.scss";
+@use "../components/contact.scss";
 
 .App {
   font-family: styles.$primary-font;
@@ -29,6 +30,7 @@
   align-items: center;
   gap: 1rem;
   margin: 1rem 0 2.3rem 0;
+  width: 100%;
 }
 .main-card{
   border: none;

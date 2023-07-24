@@ -32,3 +32,43 @@
 
 
 }
+
+.btn-wsp {
+    position: fixed !important;
+    cursor: pointer;
+    top: 85%;
+    left: 78%;
+    z-index: 100;
+    height: 100%;
+    filter: drop-shadow(0 0 4px white);
+
+
+    & .wsp-image {
+        width: 5rem;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 1s ease-in-out;
+        transition: 1s ease-in-out;
+
+        &:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+
+    @media (min-width: 768px) {
+        left: 89%;
+
+        & .wsp-image {
+            width: 5rem;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        left: 90%;
+
+        & .wsp-image {
+            width: 6.2rem;
+        }
+    }
+}

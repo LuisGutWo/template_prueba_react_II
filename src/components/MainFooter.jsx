@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 const MainFooter = () => {
   return (
@@ -8,17 +11,15 @@ const MainFooter = () => {
         <Row>
           <Col className="footer-content">
             <img
-              src={
-                "src/assets/img/2.png"
-              }
+              src={"public/img/2.png"}
               width="50%"
               height="50%"
               className="d-inline-block align-top"
               alt=""
             />
             <p className="footer-text">
-              Pizzas hechas con cariño y respetando siempre al media ambiente y los productos que de ella obtenemos <br /> Se realizan
-              envíos a todo Chile.{" "}
+              Pizzas hechas con cariño y respetando siempre al media ambiente y
+              los productos que de ella obtenemos.
             </p>
             <img
               src={
@@ -31,26 +32,20 @@ const MainFooter = () => {
             />
           </Col>
           <Col className="footer-content">
-            <h5 className="mt-3">INFORMACIÓN</h5>
+            <h5 className="mt-3 mb-3 text-center">SÍGUENOS</h5>
             <p className="footer-text">
-              Envíos y Entregas
-              <br />
-              Devolución y Cambios
-              <br />
-              Política de Garantía
-              <br />
-              Política de Privacidad{" "}
+              <InstagramIcon />
+              <FacebookIcon />
+              <TelegramIcon />
             </p>
+            <p className="text-center">#FinaPizza</p>
           </Col>
           <Col className="footer-content">
-            <h5 className="mt-3">CONTACTO</h5>
-            <p className="footer-text">
-              San Pablo 3610, local 2, Quinta Normal - Santiago
+            <h5 className="mt-3">CORPORATIVO</h5>
+            <p className="footer-text-corporativo">
+              Envíos y Entregas
               <br />
-              +569 36352145 | +569 98451212
-              <br />
-              @finapizza.cl
-              <br />
+              Términos y condiciones
             </p>
           </Col>
           <Col className="footer-content">

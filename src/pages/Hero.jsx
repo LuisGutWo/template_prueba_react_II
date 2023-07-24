@@ -6,28 +6,28 @@ function Hero() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src/assets/img/poster_1_hero.png"
+          src="public/img/poster_1_hero.png"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src/assets/img/poster_2_hero.png"
+          src="public/img/poster_2_hero.png"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src/assets/img/poster_3_hero.png"
+          src="public/img/poster_3_hero.png"
           alt="Third slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src/assets/img/poster_4_hero.png"
+          src="public/img/poster_4_hero.png"
           alt="Fourth slide"
         />
       </Carousel.Item>
