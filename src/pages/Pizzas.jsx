@@ -5,7 +5,7 @@ import { NavLink } from "react-bootstrap";
 import MainCard from "../components/MainCard";
 import Loading from "../utils/Loading";
 import { FakeLoading } from "../utils/FakeLoading";
-import { motion } from "framer-motion";
+import 'animate.css';
 
 const MainProductsList = () => {
   const [data, setData] = useState([]);
@@ -59,35 +59,22 @@ const MainProductsList = () => {
     <>
       <main className={`${sticky ? "sticky" : ""}`}>
         {/* Category Navbar */}
-        <motion.div
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-            transition: { delay: 1, duration: 1 },
-          }}
-          exit={{
-            opacity: 0.5,
-            transition: { duration: 0.7 },
-          }}
-          className="navbar-button-group"
-        >
+        <section className="navbar-button-group animate__animated animate__flipInY">
           {types.map((type) => (
             <NavLink
               key={type}
               to={`/types/${type}`}
               onClick={() => setFilter(type)}
-              className="navbar-button"
+              className="navbar-button animate__animated animate__zoomIn"
             >
               {type}
             </NavLink>
           ))}
-        </motion.div>
+        </section>
       </main>
       <div className="main-section">
         {filteredData().map((item) => (
-          <div key={item.id} className="">
+          <div key={item.id} className="animate__animated animate__flipInY">
             <MainCard key={item.id} item={item} />
           </div>
         ))}

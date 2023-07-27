@@ -27,7 +27,7 @@ export default function Pizza() {
   }
 
   return (
-    <Card className="card-detail">
+    <Card className="card-detail animate__animated animate__fadeInLeftBig">
       <Card.Img
         variant="top"
         src={pizza.img}

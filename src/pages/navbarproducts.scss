@@ -1,6 +1,6 @@
 @use "../css/styles.scss";
 
-.stickyNavbar{
+.sticky{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
     position: sticky;
     
@@ -12,15 +12,15 @@
 
 .navbar-button-group {
     overflow: hidden;
-    height: 8vh;
-    width: 100%;
+    height: 3.5rem;
+    width: 100vw;
     padding: 0 1rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 1rem;
     background-color: #030303;
 
     .navbar-button {
@@ -28,7 +28,7 @@
         color: black;
         background-color: yellow;
         border:.2em solid yellow;
-        border-radius: 6px;
+        border-radius: 4px;
         padding: 0 0.3rem 0 0.3rem;
 
         text-decoration: none;

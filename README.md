@@ -1,8 +1,8 @@
 # Prueba final modulo React II
 
-## E-Commerce Mamma Mia
+## E-Commerce FinaPizza
 
-### Trabajo elaborado en React y levantado con vite. Utilice para este proyecto todo el poder de los Hooks que ofrece React como React-router Dom, Context, Provider, Use effect y fetch para llamar a la Api. Aplique estilos ayudado poe la librería Css Bootstrap  
+### Trabajo elaborado con React y vite. Utilice para este proyecto los Hooks que ofrece React como React-router Dom, Context, Provider, Use effect y fetch para llamar a la Api. Aplique estilos con Css Bootstrap y Material UI. El mailing lo implementé con Email.js y la localización con Leaflet
 
 #### Esta es una vista previa del proyecto
 
@@ -11,3 +11,4 @@
 #### Deployed
 
 - [Deployed](https://finapizza-prueba.netlify.app/)
+  
