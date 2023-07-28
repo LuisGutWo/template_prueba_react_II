@@ -3,7 +3,6 @@ import { Button, Modal } from "react-bootstrap";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Form from "react-bootstrap/Form";
 import emailjs from "@emailjs/browser";
-import { motion } from "framer-motion";
 import { TextareaAutosize } from "@mui/material";
 
 const Contact = () => {
@@ -34,26 +33,13 @@ const Contact = () => {
   };
 
   return (
-    <motion.div
-      initial={{
-        opacity: 0.7,
-      }}
-      animate={{
-        opacity: 1,
-        transition: { delay: 0.5, duration: 0.5 },
-      }}
-      exit={{
-        opacity: 0.7,
-        transition: { duration: 0.5 },
-      }}
-      className="contact-main-container"
-    >
+    <section className="contact-main-container">
       <article className="main-contact">
         <section className="contact-img"></section>
         <section className="contact-container">
           <Form ref={form} onSubmit={sendEmail} className="contact-form">
             <Form.Group className="mb-1">
-              <Form.Label>Nombre</Form.Label>
+              <Form.Label className="text-light">Nombre</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Ingresar nombre"
@@ -61,7 +47,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group className="mb-1">
-              <Form.Label>Email</Form.Label>
+              <Form.Label className="text-light">Email</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="nombre@ejemplo.com"
@@ -69,12 +55,12 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group className="mb-1">
-              <Form.Label>Cuéntanos que necesitas?</Form.Label>
+              <Form.Label className="text-light">En que te podemos ayudar</Form.Label>
               <Form.Control as={TextareaAutosize} name="message" />
             </Form.Group>
             <Button
               onClick={handleShowEmailSend}
-              className="about-button mt-2"
+              className="btn btn-warning mt-2"
               type="submit"
               value="Send"
             >
@@ -108,7 +94,7 @@ const Contact = () => {
           </MapContainer>
         </div>
       </article>
-    </motion.div>
+    </section>
   );
 };
 

@@ -8,6 +8,8 @@ import Header from "./components/Header";
 import MainFooter from "./components/MainFooter";
 import Home from "./layout/Home";
 import NotFound from "./utils/NotFound";
+import About from "./pages/About";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -20,6 +22,9 @@ export default function App() {
           <Route path="/pizzas" element={<Pizzas />} />
           <Route path="/pizzas/:id" element={<Pizza />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
