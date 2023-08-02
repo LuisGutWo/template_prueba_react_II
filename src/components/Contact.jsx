@@ -78,13 +78,13 @@ const Contact = () => {
         </section>
       </article>
       <article className="map-section">
-        <div className="info-map">
+        {/* <div className="info-map">
           Pizzeria Fina Pizza,
           <br />
           Santiago de Chile,
           <br />
           <span>agutierrezwong@gmail.com</span>
-        </div>
+        </div> */}
         <div className="map-wrap">
           <MapContainer center={[-33.43659, -70.68413]} zoom={16}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
