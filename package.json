@@ -23,6 +23,7 @@
     "email-js": "^2.0.2",
     "framer-motion": "^10.13.0",
     "leaflet": "^1.9.4",
+    "loaders.css": "^0.1.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-context": "^0.0.3",

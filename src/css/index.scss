@@ -33,7 +33,8 @@
   margin: 1rem 0 2.3rem 0;
   width: 100%;
 }
-.main-card{
+
+.main-card {
   border: none;
 }
 
@@ -50,7 +51,9 @@
 }
 
 .card-title {
-  padding-bottom: 14px;
+  padding-bottom: 3%;
+  margin-bottom: 0.5rem;
+  border-bottom: #434344b0 solid 1px;
 }
 
 .card-detail {
@@ -63,7 +66,8 @@
 }
 
 .cart-container {
-  margin-top: 7em;
+  width: 100%;
+  margin: 2em;
 }
 
 .btn-arrow-up {

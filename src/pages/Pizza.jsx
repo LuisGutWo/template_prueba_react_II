@@ -3,6 +3,8 @@ import { usePizzasContext } from "../context/PizzasContext";
 import { useParams, NavLink } from "react-router-dom";
 import axios from "axios";
 import { Card } from "react-bootstrap";
+import Loading from "../utils/Loading";
+import { formatPrice } from "../utils/formatPrice";
 
 export default function Pizza() {
   const [pizza, setPizza] = useState();
@@ -23,7 +25,7 @@ export default function Pizza() {
   }, [params]);
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <Loading />;
   }
 
   return (
@@ -47,7 +49,7 @@ export default function Pizza() {
         </Card.Body>
 
         <section className="alert alert-warning text-center text-dark d-flex justify-content-center gap-2">
-          ${pizza.price}
+          ${formatPrice(pizza.price)}
           <NavLink className="btn btn-primary btn-sm ms-4" to="/">
             Pizzas 🍕
           </NavLink>

@@ -7,9 +7,9 @@ export default function CartItem({ item }) {
   return (
     <li className="list-group-item">
       <div className="d-flex justify-content-between align-items-center">
-        <div className="d-flex">
-          <img className="me-3" src={item.img} alt="Pizza" width="100" />
-          <h1 className="m-0 p-2">{item.name}</h1>
+        <div className="d-flex justify-content-center">
+          <img className="m-0" src={item.img} alt="Pizza" width="60" />
+          <p className="m-1 fs-6">{item.name}</p>
         </div>
         <div className="d-flex gap-1">
           <small className="text-muted p-2">${formatPrice(item.price)}</small>

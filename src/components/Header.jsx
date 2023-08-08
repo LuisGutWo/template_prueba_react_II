@@ -1,17 +1,13 @@
-import { useNavigate, NavLink, Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { usePizzasContext } from "../context/PizzasContext";
 import { formatPrice } from "../utils/formatPrice";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "animate.css";
 
 export default function Header() {
-  const navigate = useNavigate();
   const { totalCart } = usePizzasContext();
 
   return (
@@ -21,12 +17,12 @@ export default function Header() {
           <Container fluid>
             <Navbar.Brand href="#home">
               <Link
-                className="navbar-brand animate__animated animate__zoomIn"
+                className="navbar-brand"
                 to="/"
               >
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/2.png?alt=media&token=ec97873a-d384-43fc-bac5-688a3080861d"
-                  className="main-logo"
+                  className="main-logo animate__animated animate__rubberBand"
                   alt="Fina Pizza Logo"
                 />
               </Link>
@@ -39,7 +35,7 @@ export default function Header() {
             </NavLink>
 
             {/* whatsapp button */}
-            <a
+            <section
               rel=""
               href="https://api.whatsapp.com/send?phone=56920390272&text=Hola, bienvenido a Huellitas. En que podemos ayudarte...😀"
               className="btn-wsp"
@@ -50,7 +46,7 @@ export default function Header() {
                 alt=""
                 className="wsp-image main-logo animate__animated animate__fadeIn"
               />
-            </a>
+            </section>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
               style={{ border: "0", color: "transparent" }}

@@ -23,14 +23,14 @@
 .header-favorite-button {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 0;
+    padding: 0.5rem;
     margin-right: .6em !important;
     font-size: inherit;
-    width: 20%;
-    height: 2rem;
+    height: 100%;
 }
 
 .btn-wsp {

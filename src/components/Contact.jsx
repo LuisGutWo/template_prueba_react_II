@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact-main-container">
+    <section className="contact-main-container animate__animated animate__fadeIn">
       <article className="main-contact">
         <section className="contact-img"></section>
         <section className="contact-container">
