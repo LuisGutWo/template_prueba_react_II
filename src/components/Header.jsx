@@ -51,7 +51,7 @@ export default function Header() {
             </section>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
-              style={{ border: "0", color: "black", borderRadius: "6px" }}
+              style={{ border: "0", color: "grey", borderRadius: "6px" }}
             />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

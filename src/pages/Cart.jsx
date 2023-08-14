@@ -7,7 +7,7 @@ export default function Cart(id) {
 
   return (
     <div className="cart-container container overflow-hidden animate__animated animate__zoomIn">
-      <h5 className="text-start my-1 text-light">Tu Selección 🍕</h5>
+      <h5 className="text-center my-1 text-light">Tu Selección 🍕</h5>
       <hr className="text-light mb-3" />
       <ul className="list-group" key={id}>
         {cart.map((item) => (
@@ -20,7 +20,7 @@ export default function Cart(id) {
           </li>
         )}
 
-        <li className="list-group-item list-group-item-action active text-start ps-1 d-flex justify-content-between">
+        <li className="list-group-item bg-danger border-0 list-group-item-action active text-start ps-1 d-flex justify-content-between">
           <b className="fs-6">Total: ${totalCart().toLocaleString("de-DE")}</b>
           <NavLink
             className="btn btn-warning animate__animated animate__bounceInRight"
