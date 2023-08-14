@@ -11,10 +11,12 @@
 }
 
 .navbar-button-group {
-    overflow: hidden;
+    overflow: scroll;
+    display: flex !important;
     height: 3.5rem;
     width: 100vw;
     padding: 0;
+    padding-left: 9rem;
     margin-bottom: 0;
     display: flex;
     flex-direction: row;

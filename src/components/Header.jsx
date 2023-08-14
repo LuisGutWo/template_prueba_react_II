@@ -6,6 +6,8 @@ import { formatPrice } from "../utils/formatPrice";
 import Nav from "react-bootstrap/Nav";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "animate.css";
+import LogoRedPng from "../assets/img/logo_red.png";
+
 
 export default function Header() {
   const { totalCart } = usePizzasContext();
@@ -21,7 +23,7 @@ export default function Header() {
                 to="/"
               >
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/2.png?alt=media&token=ec97873a-d384-43fc-bac5-688a3080861d"
+                  src={LogoRedPng}
                   className="main-logo animate__animated animate__rubberBand"
                   alt="Fina Pizza Logo"
                 />
@@ -37,7 +39,7 @@ export default function Header() {
             {/* whatsapp button */}
             <section
               rel=""
-              href="https://api.whatsapp.com/send?phone=56920390272&text=Hola, bienvenido a Huellitas. En que podemos ayudarte...😀"
+              href="https://api.whatsapp.com/send?phone=56942920997&text=Hola, somos FinaPizza, En que podemos ayudarte...😀"
               className="btn-wsp"
               target="_blank"
             >
@@ -49,13 +51,13 @@ export default function Header() {
             </section>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
-              style={{ border: "0", color: "transparent" }}
+              style={{ border: "0", color: "black", borderRadius: "6px" }}
             />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
-              style={{ width: "70%" }}
+              style={{ width: "80%" }}
             >
               <Offcanvas.Header
                 closeButton
@@ -63,9 +65,9 @@ export default function Header() {
               >
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/fina_pizza_white_logo.png?alt=media&token=2fed6d24-8e76-4379-9b7f-00a86461ce13"
-                    width="160"
-                    height="100"
+                    src={LogoRedPng}
+                    width="165"
+                    height="150"
                     className="d-inline-block align-top"
                     alt="React Bootstrap logo"
                   />

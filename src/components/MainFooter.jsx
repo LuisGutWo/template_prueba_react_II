@@ -1,8 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TelegramIcon from '@mui/icons-material/Telegram';
+import LogoRedPng from "../assets/img/logo_red.png"
 
 const MainFooter = () => {
   return (
@@ -11,9 +10,9 @@ const MainFooter = () => {
         <Row>
           <Col className="footer-content">
             <img
-              src={"https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/2.png?alt=media&token=ec97873a-d384-43fc-bac5-688a3080861d"}
-              width="50%"
-              height="50%"
+              src={LogoRedPng}
+              width="60%"
+              height="60%"
               className="d-inline-block align-top"
               alt=""
             />
@@ -33,12 +32,10 @@ const MainFooter = () => {
           </Col>
           <Col className="footer-content">
             <h5 className="mt-3 mb-3 text-center">SÍGUENOS</h5>
-            <p className="footer-text">
+            <a href="https://www.instagram.com/finapizzachile/?hl=es" className="footer-text-icon">
               <InstagramIcon />
-              <FacebookIcon />
-              <TelegramIcon />
-            </p>
-            <p className="text-center">#FinaPizza</p>
+            </a>
+            <p className="text-center">#finapizzachile</p>
           </Col>
           <Col className="footer-content">
             <h5 className="mt-3">CORPORATIVO</h5>

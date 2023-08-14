@@ -1,194 +1,229 @@
 [
   {
-    "desc": "La pizza napolitana, de masa tierna y delgada una base de pomodoro, jamón, tomates asados y albahaca fresca y oregano.",
+    "desc": "Pizza estilo Americano, con Tocino al estilo Tex-Mex en nuestra sabrosa masa tradicional, Pomodoro y Mozzarella fresca",
     "id": "P001",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
+    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-salame.jpg?alt=media&token=ab3d4bf8-01f2-4810-982b-bd7fb6b517b2",
     "ingredients": [
-      "mozzarella",
-      "tomates",
-      "jamón",
-      "orégano"
+      "Bacon ahumado estilo Americano"
     ],
-    "name": "Napolitana",
-    "type": "clásica",
-    "price": 6990
+    "name": "Capitan Tocino",
+    "type": "SUPREME",
+    "price": 10990
   },
   {
-    "desc": "Masa delgada a la piedra, base pomodoro, jamón, choricillo español y mozzarella.",
+    "desc": "Masa delgada a la piedra, base pomodoro, camarones y mozzarella y deliciosa salsa Wasakaka.",
     "id": "P002",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fcheese-164872_640_com.jpg?alt=media&token=18b2b821-4d0d-43f2-a1c6-8c57bc388fab",
     "ingredients": [
-      "mozzarella",
-      "tomates",
-      "jamón",
-      "choricillo"
+      "camarones",
+      "wasakaka"
     ],
-    "name": "Española",
-    "type": "clásica",
-    "price": 7250
+    "name": "Del Caribe con Amor",
+    "type": "SUPREME",
+    "price": 10990
   },
   {
-    "desc": "Clásica de clásica... Salame Italiano, mozzarella y un toque de parmigiano",
+    "desc": "Nuestra propia version de la 4 quesos con esta maravillosa selección... Queso azul, Mozzarella, Parmesano y de cabra",
     "id": "P003",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_salame.jpeg?alt=media&token=77ddf6ff-7f27-4f2f-929d-1fe6ef64f8e0",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_6.jpg?alt=media&token=8cd16d04-0c04-483e-8fce-960896ab9c21",
     "ingredients": [
+      "queso azul",
+      "parmesano",
       "mozzarella",
-      "tomates",
-      "salame",
-      "orégano"
+      "queso de cabra"
     ],
-    "name": "Salame",
-    "type": "clásica",
-    "price": 8250
+    "name": "La Queso",
+    "type": "SUPREME",
+    "price": 10990
   },
   {
-    "desc": "Pizza de masa delgada a la piedra con base pomodoro, aceitunas negras, salame y champignon.",
+    "desc": "Pizza de masa delgada a la piedra con base pomodoro, espinaca, champignon y terminado con parmesano y mozzarella.",
     "id": "P004",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
-    "ingredients": [
-      "mozzarella",
-      "salame",
-      "aceitunas",
-      "champignon"
-    ],
-    "name": "Cuatro estaciones",
-    "type": "especial",
-    "price": 9590
-  },
-  {
-    "desc": "Esta tremenda pizza lleva el tocino en las venas... Atrévete a probarla.",
-    "id": "P005",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-salame.jpg?alt=media&token=ab3d4bf8-01f2-4810-982b-bd7fb6b517b2",
-    "ingredients": [
-      "mozzarella",
-      "tomates cherry",
-      "bacon",
-      "orégano"
-    ],
-    "name": "Bacon",
-    "type": "especial",
-    "price": 8990
-  },
-  {
-    "desc": "Deliciosa pizza exotica, pimentones asados, mozzarella, pollo grillado en una salsa al curry levemente picante con oregano fresco.",
-    "id": "P006",
     "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_pollo_picante.jpeg?alt=media&token=a7609042-d0d2-43cd-96e2-8da373263519",
     "ingredients": [
-      "mozzarella",
-      "pimientos",
-      "pollo grillé",
-      "orégano"
+      "espinaca",
+      "champignon",
+      "parmesano"
     ],
-    "name": "Pollo picante",
-    "type": "especial",
-    "price": 9990
+    "name": "Popeye",
+    "type": "SUPREME",
+    "price": 10990
+  },
+  {
+    "desc": "Esta tremenda pizza lleva el jamón serrano en las venas, rucula y queso de cabra... Atrévete a probarla.",
+    "id": "P005",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_electrizante.jpg?alt=media&token=1f2acf3a-ab7c-4ad9-bb23-cbf0b878b873",
+    "ingredients": [
+      "jamón serrano",
+      "rucula",
+      "queso de cabra"
+    ],
+    "name": "Jamón curado",
+    "type": "SUPREME",
+    "price": 10990
+  },
+  {
+    "desc": "Deliciosa y clásica pizza Margarita, albahaca, mozzarella y nuestra pomodoro de la casa",
+    "id": "P006",
+    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
+    "ingredients": [
+      "mozzarella",
+      "albahaca",
+      "pomodoro"
+    ],
+    "name": "Super Margarita",
+    "type": "BÁSICAS",
+    "price": 6990
   },
   {
     "desc": "Una Pizza con identidad. Tomates asados previamente al carbon envuelve a los champignon y albahaca fresca y fundidos en dos quesos, pecorino y mozzarella",
     "id": "P007",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_electrizante.jpg?alt=media&token=1f2acf3a-ab7c-4ad9-bb23-cbf0b878b873",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_salame.jpeg?alt=media&token=77ddf6ff-7f27-4f2f-929d-1fe6ef64f8e0",
     "ingredients": [
-      "mozzarella",
-      "tomates asados",
-      "champignon",
-      "albahaca",
-      "queso pecorino"
+      "peperoni americano",
+      "mozzarella"
     ],
-    "name": "Electrizante",
-    "type": "especial",
-    "price": 10990
+    "name": "Doble Peperoni",
+    "type": "BÁSICAS",
+    "price": 6990
   },
   {
-    "desc": "Pizza marina con camarones fundidos en queso provolone.",
+    "desc": "Pizza elaborada con jamón ahumado, aceitunas negras y tomates cherry... Quien dijo que era una Napolitana?",
     "id": "P008",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
     "ingredients": [
-      "mozzarella",
-      "tomates asados",
-      "camarones",
-      "orégano"
+      "jamón ahumado",
+      "tomates cherry",
+      "aceitunas negras",
+      "mozzarella"
     ],
-    "name": "La Marchelo",
-    "type": "especial",
-    "price": 9990
+    "name": "Esto no es una pizza Napolitana",
+    "type": "BÁSICAS",
+    "price": 6990
   },
   {
-    "desc": "De lo profundo del alma llega esta tremenda pizza, cuatro tipos de tomates, y dos tipos de quesos, mozzarella y pecorino.",
+    "desc": "Hawaiana... Amada por muchos y envidiada por varios. Piña, jamón ahumado y mozzarella.",
     "id": "P009",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_6.jpg?alt=media&token=8cd16d04-0c04-483e-8fce-960896ab9c21",
+    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
     "ingredients": [
-      "mozzarella",
-      "pecorino",
-      "tomates asados",
-      "orégano"
+      "jamón ahumado",
+      "piña",
+      "mozzarella"
     ],
-    "name": "Soul Sound",
-    "type": "especial",
-    "price": 9990
+    "name": "Hawaiana",
+    "type": "BÁSICAS",
+    "price": 6990
   },
   {
-    "desc": "Llévate una pizza clásica tamaño median a elección acompañado de una bebida de 1 litro.",
+    "desc": "Deliciosa pizza con el clásico pollo a la BBQ acompañado de verduras frescas de estación",
     "id": "P0010",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_1.png?alt=media&token=b28a6529-1567-44a3-acd4-aac12bb682b7",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_pollo_picante.jpeg?alt=media&token=a7609042-d0d2-43cd-96e2-8da373263519",
     "ingredients": [
-      "pizza mediana clásica",
-      "bebida de 1 litro"
+      "pollo en salsa BBQ",
+      "vegetales frescos de estación",
+      "mozzarella"
     ],
-    "name": "Promoción 1",
-    "type": "promociones",
-    "price": 7990
+    "name": "Pollo a la Barbacoa",
+    "type": "BÁSICAS",
+    "price": 6990
   },
   {
-    "desc": "Llévate dos medianas clásicas y acompáñalas con una bebida de 1.5 litros",
+    "desc": "Hawaiana... Amada por muchos y envidiada por varios. Piña, jamón ahumado y mozzarella.",
     "id": "P0011",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_2.png?alt=media&token=18e7b9c6-05ec-4b34-8f75-f8b28bda6d8d",
+    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
     "ingredients": [
-      "2 pizzas mediana clásica",
-      "bebida de 1.5 litro"
+      "vegetales frescos de estación"
     ],
-    "name": "Promoción 2",
-    "type": "promociones",
-    "price": 12990
+    "name": "Reina Vegetariana",
+    "type": "BÁSICAS",
+    "price": 6990
   },
   {
-    "desc": "La misma promo de una clásica mediana pero esta vez endulzamos tu camino con este delicioso pie de frutilla",
+    "desc": "Llévate dos pizzas Supreme a elección.",
     "id": "P0012",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_3.png?alt=media&token=e765a736-e86f-4d0b-94d7-0809c97fbccc",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/fina_pizza_promo.png?alt=media&token=d5f87e43-7ff3-491a-9453-383b28a7112d",
     "ingredients": [
-      "pizza mediana clásica",
-      "pie de frutilla",
-      "bebida de 1 litro",
-      "orégano"
+      "2 pizzas Supreme"
     ],
-    "name": "Promoción 3",
-    "type": "promociones",
-    "price": 10990
+    "name": "Promo 1",
+    "type": "PROMOCIONES",
+    "price": 18990
   },
   {
-    "desc": "Combina de la mejor forma una mediana clásica y una mediana especial y acompáñalas con una bebida 1.5 litros",
+    "desc": "Llévate dos pizzas, una básica y otra supreme.",
     "id": "P0013",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_4.png?alt=media&token=b08fefa7-ac08-4edd-b1f9-3f47354d294f",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/fina_pizza_promo_second.png?alt=media&token=f8eedf84-632b-46b6-9aa8-c7fdae75d6de",
     "ingredients": [
-      "pizza mediana clásica",
-      "pizza mediana especial",
-      "bebida de 1.5 litro"
+      "1 pizzas básica + 1 pizza supreme"
     ],
-    "name": "Promoción 4",
-    "type": "promociones",
+    "name": "Promo 2",
+    "type": "PROMOCIONES",
+    "price": 16990
+  },
+  {
+    "desc": "Llévate dos pizzas Básicas a elección.",
+    "id": "P0014",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/fina_pizza_promo.png?alt=media&token=d5f87e43-7ff3-491a-9453-383b28a7112d",
+    "ingredients": [
+      "2 pizzas Básicas"
+    ],
+    "name": "Promo 3",
+    "type": "PROMOCIONES",
     "price": 12990
   },
   {
-    "desc": "Llévate dos pizzas medianas una especial y una clásica mas una bebida de 1.5 litros y dos cheesecakes de frutilla",
-    "id": "P0014",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/promo_5.png?alt=media&token=8e909fbb-0739-45a5-84c8-225bb3645457",
+    "desc": "Llévate dos pizzas Básicas a elección.",
+    "id": "P0015",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/palitos_de_ajo.jpg?alt=media&token=cd116c89-4722-4e26-8643-7b2aeb22f009",
     "ingredients": [
-      "pizza mediana clásica",
-      "pizza mediana especial",
-      "cheesecake de frutilla",
-      "bebida de 1.5 litro"
+      "2 pizzas Básicas"
     ],
-    "name": "Promoción 5",
-    "type": "promociones",
-    "price": 8500
+    "name": "Palitos de ajo",
+    "type": "ACOMPAÑANTES",
+    "price": 4990
+  },
+  {
+    "desc": "Bebida de 1.5 Lt. a elección",
+    "id": "P0016",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/bebida_finapizza.png?alt=media&token=67bf035e-9d67-4f6e-b60d-74dcd640e7f0",
+    "ingredients": [
+      "Bebida 1.5 Lt."
+    ],
+    "name": "Bebida 1.5 Lt.",
+    "type": "ACOMPAÑANTES",
+    "price": 2990
+  },
+  {
+    "desc": "De nuestra deliciosa masa hecha en casa, hacemos esta delicia de palitos de queso.",
+    "id": "P0017",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/palitos_de_queso.jpeg?alt=media&token=7ac02767-3f55-4c34-8893-a7d6a472db56",
+    "ingredients": [
+      "Palitos de queso mozzarella"
+    ],
+    "name": "Palitos de queso",
+    "type": "ACOMPAÑANTES",
+    "price": 3990
+  },
+  {
+    "desc": "Bebida de lata",
+    "id": "P0018",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/lata_bebida_finapizza.png?alt=media&token=d829b92c-8197-4e06-9f11-8cd95a91a895",
+    "ingredients": [
+      "Bebida de lata"
+    ],
+    "name": "Bebida de lata",
+    "type": "ACOMPAÑANTES",
+    "price": 1100
+  },
+  {
+    "desc": "Focaccia",
+    "id": "P0019",
+    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/focaccia_finapizza.jpg?alt=media&token=d6aa60c4-cdb3-4d32-9668-a905e69d2f12",
+    "ingredients": [
+      "Focaccia de la casa"
+    ],
+    "name": "Focaccia",
+    "type": "ACOMPAÑANTES",
+    "price": 2990
   }
 ]
