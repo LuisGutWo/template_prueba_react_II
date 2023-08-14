@@ -10,5 +10,5 @@
 
 #### Deployed
 
-- [Deployed](https://fina-pizza.netlify.app/)
+- [Deployed](https://finapizza-muestreo.netlify.app/)
   
