@@ -1,5 +1,5 @@
-import { usePizzasContext } from "../context/PizzasContext";
-import { formatPrice } from "../utils/formatPrice";
+import { usePizzasContext } from "../../context/PizzasContext";
+import { formatPrice } from "../../utils/formatPrice";
 
 export default function CartItem({ item }) {
   const { addPizza, removePizza, findItemCount } = usePizzasContext();

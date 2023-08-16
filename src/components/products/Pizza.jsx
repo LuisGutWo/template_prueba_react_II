@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
-import { usePizzasContext } from "../context/PizzasContext";
 import { useParams, NavLink } from "react-router-dom";
-import axios from "axios";
 import { Card } from "react-bootstrap";
-import Loading from "../utils/Loading";
-import { formatPrice } from "../utils/formatPrice";
+
+import Loading from "../../utils/Loading";
+import { formatPrice } from "../../utils/formatPrice";
+import { usePizzasContext } from "../../context/PizzasContext";
+import { FakeLoading } from "../../utils/FakeLoading";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import axios from "axios";
 
 export default function Pizza() {
   const [pizza, setPizza] = useState();
@@ -12,6 +15,8 @@ export default function Pizza() {
   const { addPizza } = usePizzasContext();
 
   const params = useParams();
+
+  FakeLoading(2000);
 
   useEffect(() => {
     setLoading(true);
@@ -24,9 +29,7 @@ export default function Pizza() {
       .finally(() => setLoading(false));
   }, [params]);
 
-  if (loading) {
-    return <Loading />;
-  }
+  if (loading) return <Loading />;
 
   return (
     <Card className="card-detail animate__animated animate__fadeInLeftBig">
@@ -58,7 +61,7 @@ export default function Pizza() {
             onClick={() => addPizza(pizza)}
             to="/cart"
           >
-            Añadir 🛒
+            <FavoriteIcon />
           </NavLink>
         </section>
       </Card.Body>

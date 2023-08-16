@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-import { usePizzasContext } from "../context/PizzasContext";
-import { formatPrice } from "../utils/formatPrice";
+import { usePizzasContext } from "../../context/PizzasContext";
+import { formatPrice } from "../../utils/formatPrice";
 
 export default function MainCard({ item }) {
   const { addPizza } = usePizzasContext();
-
 
   return (
     <Card
@@ -32,7 +31,7 @@ export default function MainCard({ item }) {
           ))}
         </Card.Text>
         <Card.Footer className="text-light fs-6 p-2 mt-0">
-        ${formatPrice(item.price)}
+          ${formatPrice(item.price)}
         </Card.Footer>
         <NavLink
           to="/cart"

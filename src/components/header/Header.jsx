@@ -1,13 +1,14 @@
 import { NavLink, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import { usePizzasContext } from "../context/PizzasContext";
-import { formatPrice } from "../utils/formatPrice";
 import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import "animate.css";
-import LogoRedPng from "../assets/img/logo_red.png";
 
+import { usePizzasContext } from "../../context/PizzasContext";
+import { formatPrice } from "../../utils/formatPrice";
+
+import LogoRedPng from "../../assets/img/logo_red.png";
+import "animate.css";
 
 export default function Header() {
   const { totalCart } = usePizzasContext();
@@ -18,10 +19,7 @@ export default function Header() {
         <Navbar key={expand} expand={expand} className="navbar-main">
           <Container fluid>
             <Navbar.Brand href="#home">
-              <Link
-                className="navbar-brand"
-                to="/"
-              >
+              <Link className="navbar-brand" to="/">
                 <img
                   src={LogoRedPng}
                   className="main-logo animate__animated animate__rubberBand"
@@ -51,13 +49,13 @@ export default function Header() {
             </section>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
-              style={{ border: "0", color: "grey", borderRadius: "6px" }}
+              style={{ border: "0", color: "black", borderRadius: "6px", backgroundColor: "inherit" }}
             />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
-              style={{ width: "80%" }}
+              style={{ width: "80%", backgroundColor: "black" }}
             >
               <Offcanvas.Header
                 closeButton

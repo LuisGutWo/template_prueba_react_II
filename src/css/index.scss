@@ -1,11 +1,11 @@
-@use "./styles.scss";
-@use "../components/footer.scss";
-@use "../components/header.scss";
-@use "../pages/hero.scss";
-@use "../pages/navbarproducts.scss";
-@use "../utils/notfound.scss";
-@use "../components/contact.scss";
-@use "../pages/about.scss";
+@use "../css/styles.scss";
+@use "../../src/components/footer/footer.scss";
+@use "../../src/components/header/header.scss";
+@use "../../src//components/hero/hero.scss";
+@use "../../src/components/products/navbarproducts.scss";
+@use "../../src/utils/notfound.scss";
+@use "../../src/components/contact/contact.scss";
+@use "../../src/components/about/about.scss";
 
 .App {
   font-family: styles.$primary-font;
@@ -68,44 +68,4 @@
 .cart-container {
   width: 100%;
   margin: 2em;
-}
-
-.btn-arrow-up {
-  position: fixed !important;
-  overflow: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3.2rem;
-  width: 3.2rem;
-  top: 85%;
-  right: 82%;
-  z-index: 100;
-  background-color: #566b6b70;
-  border: none;
-  border-radius: 50%;
-
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-
-  &:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  @media (min-width: 768px) {
-    right: 89%;
-    height: 4rem;
-    width: 4rem;
-  }
-
-  @media (min-width: 1024px) {
-    right: 90%;
-    height: 5rem;
-    width: 5rem;
-  }
-
 }

@@ -1,7 +1,6 @@
 import React from "react";
-import Hero from "../pages/Hero";
-import Pizzas from "../pages/Pizzas";
-import Contact from "../components/Contact";
+import Hero from "../hero/Hero";
+import Pizzas from "../products/Pizzas";
 
 
 const Home = () => {
@@ -9,7 +8,6 @@ const Home = () => {
     <>
       <Hero />
       <Pizzas />
-      <Contact />
     </>
   );
 };

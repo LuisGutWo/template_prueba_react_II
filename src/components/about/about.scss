@@ -1,24 +1,23 @@
-@use "../css/styles.scss";
+@use "../../css/styles.scss";
 
 
 
 
-.about-image{
+.about-image {
     width: 100%;
     height: 100%;
 }
 
-.about-detailed-content{
-    margin-top: 0; /* adjust the top position of content */
+.about-detailed-content {
+    margin-top: 0;
     padding: 2rem;
-    max-width: calc(var(--max-container) + (4 * var(--spacing
-    )));
+    max-width: 100vw;
     text-align: justify;
-    line-height: normal!important;
-    font-size:.9em;
-    color:#c6c6c6 ;
+    line-height: normal !important;
+    font-size: .9em;
+    color: #c6c6c6;
 
-    & h1{
+    & h1 {
         text-align: center;
         font-size: 1.8rem;
         font-weight: bolder;

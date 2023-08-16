@@ -2,10 +2,11 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { NavLink } from "react-bootstrap";
 
-import MainCard from "../components/MainCard";
-import Loading from "../utils/Loading";
-import { FakeLoading } from "../utils/FakeLoading";
-import 'animate.css';
+import MainCard from "../products/MainCard";
+import Loading from "../../utils/Loading";
+import { FakeLoading } from "../../utils/FakeLoading";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import "animate.css";
 
 const MainProductsList = () => {
   const [data, setData] = useState([]);
@@ -15,7 +16,7 @@ const MainProductsList = () => {
   const [loading, setLoading] = useState(false);
   const [sticky, setSticky] = useState(false);
 
-  FakeLoading(200);
+  FakeLoading(2000);
 
   useEffect(() => {
     setLoading(true);
@@ -79,6 +80,7 @@ const MainProductsList = () => {
           </div>
         ))}
       </div>
+      <ScrollToTop />
     </>
   );
 };

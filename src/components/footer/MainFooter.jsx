@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import InstagramIcon from '@mui/icons-material/Instagram';
-import LogoRedPng from "../assets/img/logo_red.png"
+import LogoRedPng from "../../assets/img/logo_red.png"
 
 const MainFooter = () => {
   return (
@@ -17,8 +17,7 @@ const MainFooter = () => {
               alt=""
             />
             <p className="footer-text">
-              Pizzas hechas con cariño y respetando siempre al media ambiente y
-              los productos que de ella obtenemos.
+              Pizzas hechas con cariño y respetando siempre al medio ambiente y a los productos que de ella obtenemos.
             </p>
             <img
               src={
@@ -47,13 +46,14 @@ const MainFooter = () => {
           </Col>
           <Col className="footer-content">
             <img
-              src="src/assets/img/pizza_7.jpg"
+              src="src/assets/img/logo_black.png" 
               alt=""
               className="footer-image"
             />
           </Col>
         </Row>
       </Container>
+      <div className="copyright-footer">Copyright © 2023 | LGwebmedia, Inc.</div>
     </footer>
   );
 };

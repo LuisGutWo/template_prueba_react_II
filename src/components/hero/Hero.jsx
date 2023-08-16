@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
-import FirstPromoFlyer from "../assets/img/flyer_promo_1.jpg";
-import SecondPromoFlyer from "../assets/img/flyer_promo_2.jpg";
+import FirstPromoFlyer from "../../assets/img/flyer_promo_1.jpg";
+import SecondPromoFlyer from "../../assets/img/flyer_promo_2.jpg";
 
 function Hero() {
   return (

@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 
-import Hero from "./pages/Hero";
-import Pizzas from "./pages/Pizzas";
-import Pizza from "./pages/Pizza";
-import Cart from "./pages/Cart";
-import Header from "./components/Header";
-import MainFooter from "./components/MainFooter";
-import Home from "./layout/Home";
+import Hero from "./components/hero/Hero";
+import Pizzas from "./components/products/Pizzas";
+import Pizza from "./components/products/Pizza";
+import Cart from "./components/cart/Cart";
+import Header from "./components/header/Header";
+import MainFooter from "./components/footer/MainFooter";
+import Home from "./components/home/Home";
 import NotFound from "./utils/NotFound";
-import About from "./pages/About";
-import Contact from "./components/Contact";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 export default function App() {
   return (

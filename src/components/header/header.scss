@@ -1,4 +1,4 @@
-@use "../css/styles.scss";
+@use "../../css/styles.scss";
 
 .navbar-main {
     background: styles.$gradient-background;
@@ -15,7 +15,7 @@
 .navbar-brand {
     height: 80%;
     width: 25%;
-   
+
 }
 
 .main-logo {
@@ -57,49 +57,21 @@
             transform: scale(1.1);
         }
     }
-
-    @media (min-width: 768px) {
-        left: 89%;
-
-        & .wsp-image {
-            width: 5rem;
-        }
-    }
-
-    @media (min-width: 1024px) {
-        left: 90%;
-
-        & .wsp-image {
-            width: 6.2rem;
-        }
-    }
 }
 
-.offcanvas-action1 {
+.offcanvas-action1,
+.offcanvas-action2,
+.offcanvas-action3 {
     border-top: solid 1px rgba(45, 45, 45, 0.286);
     font-weight: bolder;
     text-decoration: none;
-    color: rgba(39, 39, 39, 0.822);
+    color: rgb(202, 202, 2);
+    border-bottom: solid 2px rgba(202, 202, 2, 0.37);
     padding: 0.5rem 0 0.5rem 0;
+    margin-left: 7%;
 }
 
-.offcanvas-action2 {
-    font-weight: bolder;
-    text-decoration: none;
-    color: rgba(39, 39, 39, 0.822);
-    padding: 0.5rem 0 0.5rem 0;
-}
-
-.offcanvas-action3 {
-    font-weight: bolder;
-    border-bottom: solid 1px rgba(45, 45, 45, 0.286);
-    text-decoration: none;
-    color: rgba(39, 39, 39, 0.822);
-    padding: 0.5rem 0 0.5rem 0;
-
-}
-
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 
     .header-favorite-button {
         width: 11%;
@@ -119,16 +91,11 @@
 
 
 }
-@media (min-width: 768px) {
 
-    .offcanvas-action1,
-    .offcanvas-action2,
-    .offcanvas-action3 {
-        display: inline-block !important;
-        margin-right: .7em;
-        border-bottom: solid 2px rgba(202, 202, 2, 0.37);
-        color: rgb(202, 202, 2);
-        font-size: 100%;
+@media (min-width: 1024px) {
+
+    .navbar-main{
+        height: 25vh;
     }
 
 

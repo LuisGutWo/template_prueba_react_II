@@ -1,9 +1,5 @@
 @use "../css/styles.scss";
 
-/*======================
-    404 page
-=======================*/
-
 
 .page-404 {
     padding: 1rem 0rem 2rem 6rem;
@@ -43,3 +39,44 @@
 .constant-box-404 {
     margin-top: -50px;
 }
+
+.btn-arrow-up {
+    position: fixed !important;
+    overflow: hidden;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+    width: 3.2rem;
+    top: 83%;
+    right: 82%;
+    z-index: 100;
+    background-color: #566b6b9d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+  
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  
+    &:hover {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+    @media (min-width: 768px) {
+      right: 89%;
+      height: 4rem;
+      width: 4rem;
+    }
+  
+    @media (min-width: 1024px) {
+      right: 90%;
+      height: 5rem;
+      width: 5rem;
+    }
+  
+  }
