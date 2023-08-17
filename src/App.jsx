@@ -5,7 +5,6 @@ import Pizzas from "./components/products/Pizzas";
 import Pizza from "./components/products/Pizza";
 import Cart from "./components/cart/Cart";
 import Header from "./components/header/Header";
-import MainFooter from "./components/footer/MainFooter";
 import Home from "./components/home/Home";
 import NotFound from "./utils/NotFound";
 import About from "./components/about/About";
@@ -24,11 +23,9 @@ export default function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-      <MainFooter />
     </>
   );
 }

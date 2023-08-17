@@ -40,9 +40,9 @@ export default function Pizza() {
         alt="Imagen de pizza seleccionada"
       />
       <Card.Body>
-        <Card.Title className="fs-1">{pizza.name} </Card.Title>
-        <Card.Text className="card-text">{pizza.desc}</Card.Text>
-        <Card.Body style={{ textAlign: "start" }}>
+        <Card.Title className="fs-1 text-light">{pizza.name} </Card.Title>
+        <Card.Text className="card-text text-light">{pizza.desc}</Card.Text>
+        <Card.Body className="text-light" style={{ textAlign: "start" }}>
           {pizza.ingredients.map((ingredient, index) => (
             <div key={ingredient}>
               🍕 {ingredient}
@@ -51,10 +51,10 @@ export default function Pizza() {
           ))}
         </Card.Body>
 
-        <section className="alert alert-warning text-center text-dark d-flex justify-content-center gap-2">
+        <section className="alert alert-warning text-center text-dark d-flex justify-content-center fs-4 gap-2">
           ${formatPrice(pizza.price)}
-          <NavLink className="btn btn-primary btn-sm ms-4" to="/">
-            Pizzas 🍕
+          <NavLink className="btn btn-danger btn-sm ms-4" to="/">
+            MENU 🍕
           </NavLink>
           <NavLink
             className="btn btn-danger btn-sm"

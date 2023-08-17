@@ -3,6 +3,7 @@ import "animate.css";
 
 import HeroImgAbout from "../../assets/img/finapizza_about_hero.png";
 import { FakeLoading } from "../../utils/FakeLoading";
+import MainFooter from "../footer/MainFooter";
 
 const About = () => {
   FakeLoading(200);
@@ -26,6 +27,7 @@ const About = () => {
           </h6>
         </section>
       </article>
+      <MainFooter />
     </>
   );
 };
