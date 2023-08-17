@@ -37,7 +37,7 @@ export default function Pizza() {
         variant="top"
         src={pizza.img}
         className="img-fluid rounded-top h-100"
-        alt="..."
+        alt="Imagen de pizza seleccionada"
       />
       <Card.Body>
         <Card.Title className="fs-1">{pizza.name} </Card.Title>

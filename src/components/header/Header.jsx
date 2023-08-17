@@ -7,6 +7,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { usePizzasContext } from "../../context/PizzasContext";
 import { formatPrice } from "../../utils/formatPrice";
 
+import LogoBlackPng from "../../assets/img/logo_black.png";
 import LogoRedPng from "../../assets/img/logo_red.png";
 import "animate.css";
 
@@ -21,7 +22,7 @@ export default function Header() {
             <Navbar.Brand href="#home">
               <Link className="navbar-brand" to="/">
                 <img
-                  src={LogoRedPng}
+                  src={LogoBlackPng}
                   className="main-logo animate__animated animate__rubberBand"
                   alt="Fina Pizza Logo"
                 />
@@ -67,7 +68,7 @@ export default function Header() {
                     width="165"
                     height="150"
                     className="d-inline-block align-top"
-                    alt="React Bootstrap logo"
+                    alt="Fina pizza red Logo"
                   />
                 </Offcanvas.Title>
               </Offcanvas.Header>

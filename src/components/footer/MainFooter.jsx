@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import InstagramIcon from '@mui/icons-material/Instagram';
-import LogoRedPng from "../../assets/img/logo_red.png"
+import LogoBlackPng from "../../assets/img/logo_black.png"
+import ThumbnailLogoBlack from  "../../assets/img/thumbnail_finapizza_black&white.png"
 
 const MainFooter = () => {
   return (
@@ -10,7 +11,7 @@ const MainFooter = () => {
         <Row>
           <Col className="footer-content">
             <img
-              src={LogoRedPng}
+              src={LogoBlackPng}
               width="60%"
               height="60%"
               className="d-inline-block align-top"
@@ -46,7 +47,7 @@ const MainFooter = () => {
           </Col>
           <Col className="footer-content">
             <img
-              src="src/assets/img/logo_black.png" 
+              src={ThumbnailLogoBlack} 
               alt=""
               className="footer-image"
             />

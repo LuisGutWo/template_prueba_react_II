@@ -24,13 +24,14 @@
 
 
 .main-section {
+  background-color: styles.$background-color;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin: 1rem 0 2.3rem 0;
+  padding: 1.5rem 0 1rem 0;
   width: 100%;
 }
 
@@ -50,10 +51,21 @@
   }
 }
 
+.card-body {
+  background-color: #C21A26;
+}
+
 .card-title {
-  padding-bottom: 3%;
-  margin-bottom: 0.5rem;
-  border-bottom: #434344b0 solid 1px;
+  padding-bottom: 0.5rem;
+}
+.card-ingredients{
+  font-size: 80%;
+}
+.card-price{
+  background-color: #C21A26;
+  color: floralwhite;
+  font-size: medium;
+  padding: 0 0 0.5rem 1.5rem;
 }
 
 .card-detail {

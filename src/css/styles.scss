@@ -5,17 +5,18 @@
 
 $primary-font: "Raleway", sans-serif;
 
-$background-color: #ffffff;
-$gradient-background: linear-gradient(120deg, #000000 60%, #BE1522 120%);
+$background-color: #C21A26;
+$gradient-background: linear-gradient(120deg, #000000 60%, #C21A26 120%);
 
 
-$primary-color: #BE1522;
-$secondary-color: #917FB3;
-$purple-light: #ece1ffcf;
+$primary-color: #C21A26;
+$secondary-color: #F94A29;
+$purple-light: #FCE22A;
 
 :root {
     --animate-duration: 1s;
     --animate-delay: 1.2s;
+    background-color: $primary-color;
   }
   
   input,

@@ -6,7 +6,7 @@
 
 #### Esta es una vista previa del proyecto
 
-- [screen shot del proyecto](https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/127.0.0.1_5173_(iPhone%20SE)%20(1).png?alt=media&token=0c418dbb-7f2c-4866-b6ac-15f586cfcd95)
+- [creen shot](<src/assets/img/127.0.0.1_5173_(iPhone SE) (2).png>)
 
 #### Deployed
 

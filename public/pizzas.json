@@ -2,7 +2,7 @@
   {
     "desc": "Pizza estilo Americano, con Tocino al estilo Tex-Mex en nuestra sabrosa masa tradicional, Pomodoro y Mozzarella fresca",
     "id": "P001",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-salame.jpg?alt=media&token=ab3d4bf8-01f2-4810-982b-bd7fb6b517b2",
+    "img": "src/assets/img/Capitan_20tocino.jpg",
     "ingredients": [
       "Bacon ahumado estilo Americano"
     ],
@@ -13,7 +13,7 @@
   {
     "desc": "Masa delgada a la piedra, base pomodoro, camarones y mozzarella y deliciosa salsa Wasakaka.",
     "id": "P002",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fcheese-164872_640_com.jpg?alt=media&token=18b2b821-4d0d-43f2-a1c6-8c57bc388fab",
+    "img": "src/assets/img/El_20caribe_20te_20lo_20da.jpg",
     "ingredients": [
       "camarones",
       "wasakaka"
@@ -25,7 +25,7 @@
   {
     "desc": "Nuestra propia version de la 4 quesos con esta maravillosa selección... Queso azul, Mozzarella, Parmesano y de cabra",
     "id": "P003",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_6.jpg?alt=media&token=8cd16d04-0c04-483e-8fce-960896ab9c21",
+    "img": "src/assets/img/La_20queso.jpg",
     "ingredients": [
       "queso azul",
       "parmesano",
@@ -39,7 +39,7 @@
   {
     "desc": "Pizza de masa delgada a la piedra con base pomodoro, espinaca, champignon y terminado con parmesano y mozzarella.",
     "id": "P004",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_pollo_picante.jpeg?alt=media&token=a7609042-d0d2-43cd-96e2-8da373263519",
+    "img": "src/assets/img/Popeye.jpg",
     "ingredients": [
       "espinaca",
       "champignon",
@@ -52,7 +52,7 @@
   {
     "desc": "Esta tremenda pizza lleva el jamón serrano en las venas, rucula y queso de cabra... Atrévete a probarla.",
     "id": "P005",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_electrizante.jpg?alt=media&token=1f2acf3a-ab7c-4ad9-bb23-cbf0b878b873",
+    "img": "src/assets/img/jamon_20curado.jpg",
     "ingredients": [
       "jamón serrano",
       "rucula",
@@ -65,7 +65,7 @@
   {
     "desc": "Deliciosa y clásica pizza Margarita, albahaca, mozzarella y nuestra pomodoro de la casa",
     "id": "P006",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
+    "img": "src/assets/img/Super margarita.jpg",
     "ingredients": [
       "mozzarella",
       "albahaca",
@@ -78,7 +78,7 @@
   {
     "desc": "Una Pizza con identidad. Tomates asados previamente al carbon envuelve a los champignon y albahaca fresca y fundidos en dos quesos, pecorino y mozzarella",
     "id": "P007",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_salame.jpeg?alt=media&token=77ddf6ff-7f27-4f2f-929d-1fe6ef64f8e0",
+    "img": "src/assets/img/doble_20pepperoni.jpg",
     "ingredients": [
       "peperoni americano",
       "mozzarella"
@@ -90,7 +90,7 @@
   {
     "desc": "Pizza elaborada con jamón ahumado, aceitunas negras y tomates cherry... Quien dijo que era una Napolitana?",
     "id": "P008",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
+    "img": "src/assets/img/esto_20no_20es_20una_20pizza_20napolitana.jpg",
     "ingredients": [
       "jamón ahumado",
       "tomates cherry",
@@ -104,7 +104,7 @@
   {
     "desc": "Hawaiana... Amada por muchos y envidiada por varios. Piña, jamón ahumado y mozzarella.",
     "id": "P009",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c",
+    "img": "src/assets/img/Hawaiiana.jpg",
     "ingredients": [
       "jamón ahumado",
       "piña",
@@ -117,7 +117,7 @@
   {
     "desc": "Deliciosa pizza con el clásico pollo a la BBQ acompañado de verduras frescas de estación",
     "id": "P0010",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/pizza_pollo_picante.jpeg?alt=media&token=a7609042-d0d2-43cd-96e2-8da373263519",
+    "img": "src/assets/img/Pollo_20a_20la_20barbacoa.jpg",
     "ingredients": [
       "pollo en salsa BBQ",
       "vegetales frescos de estación",
@@ -130,7 +130,7 @@
   {
     "desc": "Con la selección de nuestros vegetales de estación hacemos esta deliciosa pizza de vegetales, atrévete.",
     "id": "P0011",
-    "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
+    "img": "src/assets/img/Reina_20vegetariana.jpg",
     "ingredients": [
       "vegetales frescos de estación"
     ],
@@ -174,7 +174,7 @@
   {
     "desc": "De nuestra deliciosa masa hacemos estos palitos de ajo y oregano, pruebalos!",
     "id": "P0015",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/palitos_de_ajo.jpg?alt=media&token=cd116c89-4722-4e26-8643-7b2aeb22f009",
+    "img": "src/assets/img/Palitos_20de_20ajo_20y_20palitos_20de_20queso.jpg",
     "ingredients": [
       "Palitos de ajo"
     ],
@@ -196,7 +196,7 @@
   {
     "desc": "De nuestra deliciosa masa hecha en casa, hacemos esta delicia de palitos de queso.",
     "id": "P0017",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/palitos_de_queso.jpeg?alt=media&token=7ac02767-3f55-4c34-8893-a7d6a472db56",
+    "img": "src/assets/img/Palitos_20de_20ajo_20y_20palitos_20de_20queso.jpg",
     "ingredients": [
       "Palitos de queso mozzarella"
     ],
@@ -218,7 +218,7 @@
   {
     "desc": "Focaccia",
     "id": "P0019",
-    "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/focaccia_finapizza.jpg?alt=media&token=d6aa60c4-cdb3-4d32-9668-a905e69d2f12",
+    "img": "src/assets/img/Focaccia.jpg",
     "ingredients": [
       "Focaccia de la casa"
     ],

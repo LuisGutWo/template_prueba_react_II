@@ -19,26 +19,26 @@ export default function MainCard({ item }) {
           src={item.img}
         />
       </NavLink>
-      <Card.Body className="m-0 bg-dark">
+      <Card.Body className="m-0 card-body">
         <Card.Title className="card-title text-light fs-5">
           {item.name}
         </Card.Title>
-        <Card.Text className="card-title">
+        <Card.Text>
           {item.ingredients.map((ingredient) => (
-            <Card.Subtitle className="text-light fs-6" key={ingredient}>
+            <Card.Subtitle className="text-light card-ingredients" key={ingredient}>
               🍕 {ingredient}
             </Card.Subtitle>
           ))}
         </Card.Text>
-        <Card.Footer className="text-light fs-6 p-2 mt-0">
+        <Card.Footer className="card-price">
           ${formatPrice(item.price)}
         </Card.Footer>
         <NavLink
           to="/cart"
-          className="btn btn-sm btn-warning"
+          className="btn btn-sm btn-warning fw-bolder"
           onClick={() => addPizza(item)}
         >
-          Seleccionar 🍕
+          AGREGAR 🍕
         </NavLink>
       </Card.Body>
     </Card>
