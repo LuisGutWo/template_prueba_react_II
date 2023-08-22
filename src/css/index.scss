@@ -6,6 +6,7 @@
 @use "../../src/utils/notfound.scss";
 @use "../../src/components/contact/contact.scss";
 @use "../../src/components/about/about.scss";
+@use "../../src/components//products/maincardstyles.scss";
 
 .App {
   font-family: styles.$primary-font;
@@ -36,7 +37,9 @@
 
 .main-card {
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: styles.$background-color;
+  box-shadow: rgba(0, 0, 0, 0.243) 0px 22px 70px 4px;
+  
 }
 
 .card-image {
@@ -52,19 +55,22 @@
 }
 
 .card-body {
-  background-color: #C21A26;
+  border: none;
+  background-color: styles.$background-color;
+
+  & .card-title {
+    padding-bottom: 0.5rem;
+  }
 }
 
-.card-title {
-  padding-bottom: 0.5rem;
-}
-.card-ingredients{
+
+.card-ingredients {
   font-size: 80%;
 }
-.card-price{
-  background-color: #C21A26;
-  color: floralwhite;
-  font-size: medium;
+
+.card-price {
+  color: rgb(255, 255, 255);
+  font-size: large;
   padding: 0 0 0.5rem 1.5rem;
 }
 
@@ -77,9 +83,11 @@
 
 .card-text {
   align-items: start;
+  border: none;
 }
 
 .cart-container {
   width: 100%;
+  height: 80vh;
   margin: 2em;
 }

@@ -18,7 +18,7 @@ export default function Header() {
     <>
       {["sm"].map((expand) => (
         <Navbar key={expand} expand={expand} className="navbar-main">
-          <Container fluid>
+          <Container fluid style={{ height: "100%" }}>
             <Navbar.Brand href="#home">
               <Link className="navbar-brand" to="/">
                 <img
