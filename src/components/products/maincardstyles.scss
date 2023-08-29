@@ -19,22 +19,28 @@
 
 .card-body {
     background-color: #C21A26;
+
+    .card-title {
+        padding-bottom: 0.5rem;
+    }
+
+    .card-ingredients {
+        font-size: 80%;
+    }
+
+    .card-price {
+        background-color: #C21A26;
+        color: floralwhite;
+        font-size: large;
+        padding: 0 0 0.5rem 1.5rem;
+    }
+    & .btn {
+        width: 100%;
+    }
 }
 
-.card-title {
-    padding-bottom: 0.5rem;
-}
 
-.card-ingredients {
-    font-size: 80%;
-}
 
-.card-price {
-    background-color: #C21A26;
-    color: floralwhite;
-    font-size: large;
-    padding: 0 0 0.5rem 1.5rem;
-}
 
 .card-detail {
     width: 90vw;
