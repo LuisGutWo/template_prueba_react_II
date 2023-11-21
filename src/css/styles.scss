@@ -14,32 +14,54 @@ $secondary-color: #F94A29;
 $purple-light: #FCE22A;
 
 :root {
-    --animate-duration: 1s;
-    --animate-delay: 1.2s;
-    background-color: $gradient-background;
-  }
-  
-  input,
-  textarea {
-    font-family: 'Helvetica Neue', sans-serif;
-  }
-  
-  .loader-hidden {
-    display: none;
-  }
-  
-  .loader-active {
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    height: 50px;
-    animation: fadeOut 1s 1s;
-    animation-fill-mode: forwards;
-  }
-  
+  --animate-duration: 1s;
+  --animate-delay: 1.2s;
+  background-color: $gradient-background;
+}
 
+input,
+textarea {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
+
+.btn-wsp {
+  position: fixed !important;
+  cursor: pointer;
+  top: 80%;
+  left: 78%;
+  z-index: 100;
+  height: 100%;
+  filter: drop-shadow(0 0 4px white);
+
+
+  & .wsp-image {
+    width: 5rem;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+
+    &:hover {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+}

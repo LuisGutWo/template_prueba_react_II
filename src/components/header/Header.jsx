@@ -18,14 +18,10 @@ export default function Header() {
     <>
       {["sm"].map((expand) => (
         <Navbar key={expand} expand={expand} className="navbar-main">
-          <Container fluid style={{ height: "100%" }}>
-            <Navbar.Brand href="#home">
-              <Link className="navbar-brand" to="/">
-                <img
-                  src={LogoBlackPng}
-                  className="main-logo animate__animated animate__rubberBand"
-                  alt="Fina Pizza Logo"
-                />
+          <Container fluid>
+            <Navbar.Brand className="navbar-brand">
+              <Link to="/">
+                <img src={LogoBlackPng} alt="Fina Pizza Logo" />
               </Link>
             </Navbar.Brand>
             <NavLink
@@ -35,22 +31,14 @@ export default function Header() {
               ❤ ${formatPrice(totalCart())}
             </NavLink>
 
-            {/* whatsapp button */}
-            <section
-              rel=""
-              href="https://api.whatsapp.com/send?phone=56942920997&text=Hola, somos FinaPizza, En que podemos ayudarte...😀"
-              className="btn-wsp"
-              target="_blank"
-            >
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/wa_chat_icon.png?alt=media&token=ce6cb743-6822-4223-9279-0bdd5efe6677"
-                alt=""
-                className="wsp-image main-logo animate__animated animate__fadeIn"
-              />
-            </section>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
-              style={{ border: "0", color: "black", borderRadius: "6px", backgroundColor: "inherit" }}
+              style={{
+                border: "0",
+                color: "black",
+                borderRadius: "6px",
+                backgroundColor: "inherit",
+              }}
             />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
