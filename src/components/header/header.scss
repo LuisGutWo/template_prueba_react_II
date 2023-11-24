@@ -3,17 +3,18 @@
 .navbar-main {
     position: relative;
     background: styles.$primary-color;
+    padding: 5px 30px;
 
-    & .container-fluid {
-        overflow: hidden;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    // & .container-fluid {
+    //     overflow: hidden;
+    //     height: 100%;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
 
 
         & .navbar-brand {
-            width: 20%;
+            width: 10%;
             height: 100%;
 
             & img {
@@ -35,7 +36,7 @@
 
 
 
-    }
+    // }
 
 }
 

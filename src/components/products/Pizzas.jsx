@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { NavLink } from "react-bootstrap";
+import { Container, NavLink } from "react-bootstrap";
 
 import MainCard from "../products/MainCard";
 import Loading from "../../utils/Loading";
@@ -58,7 +58,7 @@ const MainProductsList = () => {
 
   return (
     <>
-      <main className={`${sticky ? "sticky" : ""}`}>
+      <nav className={`${sticky ? "sticky" : ""}`}>
         {/* Category Navbar */}
         <section className="navbar-button-group animate__animated animate__flipInY">
           {types.map((type) => (
@@ -72,14 +72,16 @@ const MainProductsList = () => {
             </NavLink>
           ))}
         </section>
-      </main>
-      <div className="main-section">
-        {filteredData().map((item) => (
-          <div key={item.id} className="animate__animated animate__flipInY">
-            <MainCard key={item.id} item={item} />
-          </div>
-        ))}
-      </div>
+      </nav>
+      <Container fluid>
+        <div className="main-section">
+          {filteredData().map((item) => (
+            <div key={item.id} className="animate__animated animate__flipInY">
+              <MainCard key={item.id} item={item} />
+            </div>
+          ))}
+        </div>
+      </Container>
       <ScrollToTop />
     </>
   );
