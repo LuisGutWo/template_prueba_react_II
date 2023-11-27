@@ -10,6 +10,7 @@
 
 .navbar-button-group {
     width: 100vw;
+    overflow: hidden;
     padding: 15px 30px;
     display: flex;
     flex-direction: row;
@@ -30,26 +31,7 @@
         border-radius: 5px;
         cursor: pointer;
         background-color: styles.$primary-color;
-        background-color: styles.$primary-color;
-
-        // width: 100%;
-        // color: rgb(237, 237, 237);
-        // 
-        // border: 2px solid styles.$primary-color;
-        // border-radius: 6px;
-        
-
-        background-color: styles.$primary-color;    
-
-        // width: 100%;
-        // color: rgb(237, 237, 237);
-        // 
-        // border: 2px solid styles.$primary-color;
-        // border-radius: 6px;
-        
-
         text-decoration: none;
-        cursor: pointer;
         transition: all ease-in-out .4s;
 
         &:hover {
@@ -60,28 +42,17 @@
             box-shadow: 0px 5px 18px #ededed4f;
         }
     }
-
-    // @media (min-width: 768px) {
-    //     height: 4rem;
-    //     gap: 5rem;
-
-    //     .navbar-button {
-    //         font-size: 1.2rem;
-
-    //         &:hover {
-    //             transform: scale(.9);
-    //             color: rgb(255, 255, 255);
-    //             background-color: rgb(255, 14, 255);
-    //             border: .2em solid rgb(255, 14, 255);
-    //             border-radius: 6px;
-    //             padding: 0 0.3rem 0 0.3rem;
-
-    //         }
-    //     }
-
-
-
-    // }
-
 }
 
+@media (width <=768px) {
+    .navbar-button-group {
+        overflow-x: scroll;
+
+        .navbar-button {
+            height: 30px;
+            padding: 0 10px;
+            font-size: 0.8em;
+        }
+    }
+
+}

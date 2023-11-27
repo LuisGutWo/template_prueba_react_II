@@ -2,7 +2,7 @@
 
 .main-card {
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.318) 0px 22px 70px 4px;
+    box-shadow: rgba(16, 16, 16, 0.318) 0px 22px 70px 4px;
 }
 
 .card-image {
@@ -22,6 +22,7 @@
 
     .card-title {
         padding-bottom: 0.5rem;
+        font-size: 1.5rem;
     }
 
     .card-ingredients {
@@ -32,8 +33,9 @@
         background-color: #C21A26;
         color: floralwhite;
         font-size: large;
-        padding: 0 0 0.5rem 1.5rem;
+        text-align: center;
     }
+
     & .btn {
         width: 100%;
     }
@@ -52,4 +54,10 @@
 .card-text {
     align-items: start;
     border: none;
+}
+
+.cart-container {
+    width: 100%;
+    height: 100%;
+    margin: 2em;
 }

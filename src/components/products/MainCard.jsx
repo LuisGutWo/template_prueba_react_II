@@ -57,7 +57,7 @@ export default function MainCard({ item }) {
         />
       </NavLink>
       <Card.Body className="m-0 card-body">
-        <Card.Title className="card-title text-light fs-5">
+        <Card.Title className="card-title text-light">
           {item.name}
         </Card.Title>
         <Card.Text>

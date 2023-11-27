@@ -46,14 +46,14 @@ textarea {
   position: fixed !important;
   cursor: pointer;
   top: 80%;
-  left: 78%;
+  left: 90%;
   z-index: 100;
   height: 100%;
   filter: drop-shadow(0 0 4px white);
 
 
   & .wsp-image {
-    width: 5rem;
+    width: 7rem;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: 1s ease-in-out;
@@ -64,4 +64,15 @@ textarea {
       transform: scale(1.1);
     }
   }
+}
+
+@media (width <=768px) {
+  .btn-wsp {
+    left: 80%;
+
+    & .wsp-image {
+      width: 6rem;
+    }
+  }
+
 }
