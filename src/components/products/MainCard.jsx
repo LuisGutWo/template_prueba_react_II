@@ -25,10 +25,8 @@ export default function MainCard({ item }) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>
-            El carrito de favoritos te ayuda a seleccionar mejor la FinaPizza
-            para este dia.
-          </p>
+          El carrito de favoritos te ayuda a seleccionar mejor la FinaPizza para
+          este dia.
         </Modal.Body>
         <Modal.Footer className="d-flex justify-content-center">
           <NavLink to="/cart" onClick={props.onHide} className="btn btn-danger">
@@ -57,9 +55,7 @@ export default function MainCard({ item }) {
         />
       </NavLink>
       <Card.Body className="m-0 card-body">
-        <Card.Title className="card-title text-light">
-          {item.name}
-        </Card.Title>
+        <Card.Title className="card-title text-light">{item.name}</Card.Title>
         <Card.Text>
           {item.ingredients.map((ingredient) => (
             <Card.Subtitle
