@@ -8,7 +8,7 @@
 
 - ![Screenshot](public/img/fina_pizza_screenshot.png)
 
-#### Deployed
+#### Visita esta pagina 🙂
 
-- [Deployed](https://finapizza-newdeployed.netlify.app/)
+- [Deployed](https://finapizza-chile.netlify.app/)
   
