@@ -9,7 +9,7 @@ export default function CartItem({ item }) {
       <div className="d-flex justify-content-between align-items-center">
         <div className="d-flex justify-content-center">
           <img className="m-0" src={item.img} alt="Pizza" width="60" />
-          <p className="m-1 fs-6">{item.name}</p>
+          <span className="m-1 fs-6">{item.name}</span>
         </div>
         <div className="d-flex gap-1">
           <small className="text-muted p-2">${formatPrice(item.price)}</small>

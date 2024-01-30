@@ -9,6 +9,7 @@ import Home from "./components/home/Home";
 import NotFound from "./utils/NotFound";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import MainFooter from "./components/footer/MainFooter";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
+      <MainFooter />
     </>
   );
 }

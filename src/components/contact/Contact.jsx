@@ -5,7 +5,6 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 import emailjs from "@emailjs/browser";
 import { TextareaAutosize } from "@mui/material";
-import MainFooter from "../footer/MainFooter";
 
 const Contact = () => {
   const [showEmailSend, setShowEmailSend] = useState(false);
@@ -102,7 +101,6 @@ const Contact = () => {
           </div>
         </article>
       </section>
-        <MainFooter />
     </>
   );
 };

@@ -10,5 +10,5 @@
 
 #### Visita esta pagina 🙂
 
-- [Deployed](https://finapizza-chile.netlify.app/)
+<https://finapizzasantiago.netlify.app/>
   
